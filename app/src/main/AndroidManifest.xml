@@ -26,6 +26,12 @@
             </intent-filter>
 
         </activity>
+        <activity android:name=".admin.AdminDashboardActivity" android:exported="true"/>
+        <activity android:name=".admin.ManageRentersActivity" android:exported="true"/>
+        <activity android:name=".admin.ManageCustomersActivity" android:exported="true"/>
+        <activity android:name=".admin.ManageBookingsActivity" android:exported="true"/>
+        <activity android:name=".admin.ViewComplaintsActivity" android:exported="true"/>
+
 
     </application>
 
