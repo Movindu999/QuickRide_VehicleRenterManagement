@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.myapplication.R;
 import com.example.myapplication.admin.AdminDashboardActivity;
+import com.example.myapplication.customer.CustomerDashboardActivity;
 
 public class RoleSelectionActivity extends AppCompatActivity {
 
@@ -16,13 +17,14 @@ public class RoleSelectionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_role_selection);
 
-        // Get Admin button from XML
+        // Admin button
         Button btnAdmin = findViewById(R.id.btnAdmin);
+        btnAdmin.setOnClickListener(v ->
+                startActivity(new Intent(RoleSelectionActivity.this, AdminDashboardActivity.class)));
 
-        // When Admin button clicked → open Admin Dashboard
-        btnAdmin.setOnClickListener(v -> {
-            Intent intent = new Intent(RoleSelectionActivity.this, AdminDashboardActivity.class);
-            startActivity(intent);
-        });
+        // Customer button
+        Button btnCustomer = findViewById(R.id.btnCustomer);
+        btnCustomer.setOnClickListener(v ->
+                startActivity(new Intent(RoleSelectionActivity.this, CustomerDashboardActivity.class)));
     }
 }
