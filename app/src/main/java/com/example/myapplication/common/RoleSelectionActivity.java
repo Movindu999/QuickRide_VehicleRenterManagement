@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.myapplication.R;
 import com.example.myapplication.admin.AdminDashboardActivity;
 import com.example.myapplication.customer.CustomerDashboardActivity;
+import com.google.android.material.appbar.MaterialToolbar;
 
 public class RoleSelectionActivity extends AppCompatActivity {
 
@@ -16,6 +17,10 @@ public class RoleSelectionActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_role_selection);
+
+        MaterialToolbar topAppBar = findViewById(R.id.topAppBar);
+        setSupportActionBar(topAppBar);
+        topAppBar.setTitle(R.string.screen_role_selection);
 
         // Admin button
         Button btnAdmin = findViewById(R.id.btnAdmin);
