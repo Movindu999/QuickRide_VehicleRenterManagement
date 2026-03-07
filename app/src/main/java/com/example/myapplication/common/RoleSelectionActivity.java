@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.myapplication.R;
 import com.example.myapplication.admin.AdminDashboardActivity;
 import com.example.myapplication.customer.CustomerDashboardActivity;
+import com.example.myapplication.renter.RenterDashboardActivity;
 import com.google.android.material.appbar.MaterialToolbar;
 
 public class RoleSelectionActivity extends AppCompatActivity {
@@ -31,5 +32,10 @@ public class RoleSelectionActivity extends AppCompatActivity {
         Button btnCustomer = findViewById(R.id.btnCustomer);
         btnCustomer.setOnClickListener(v ->
                 startActivity(new Intent(RoleSelectionActivity.this, CustomerDashboardActivity.class)));
+
+
+        Button btnRenter = findViewById(R.id.btnRenter);
+        btnCustomer.setOnClickListener(v ->
+                startActivity(new Intent(RoleSelectionActivity.this, RenterDashboardActivity.class)));
     }
 }
