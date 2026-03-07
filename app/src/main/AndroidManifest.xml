@@ -32,6 +32,7 @@
         <activity android:name=".admin.ManageBookingsActivity" android:exported="true"/>
         <activity android:name=".admin.ViewComplaintsActivity" android:exported="true"/>
 
+        <activity android:name=".customer.CustomerLoginActivity" android:exported="true"/>
         <activity android:name=".customer.CustomerDashboardActivity" android:exported="true"/>
         <activity android:name=".customer.ViewRentersActivity" android:exported="true"/>
         <activity android:name=".customer.MyBookingsActivity" android:exported="true"/>

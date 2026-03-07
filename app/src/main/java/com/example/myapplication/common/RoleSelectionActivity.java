@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.myapplication.R;
 import com.example.myapplication.admin.AdminDashboardActivity;
 import com.example.myapplication.customer.CustomerDashboardActivity;
+import com.example.myapplication.customer.CustomerLoginActivity;
 
 public class RoleSelectionActivity extends AppCompatActivity {
 
@@ -25,6 +26,6 @@ public class RoleSelectionActivity extends AppCompatActivity {
         // Customer button
         Button btnCustomer = findViewById(R.id.btnCustomer);
         btnCustomer.setOnClickListener(v ->
-                startActivity(new Intent(RoleSelectionActivity.this, CustomerDashboardActivity.class)));
+                startActivity(new Intent(RoleSelectionActivity.this, CustomerLoginActivity.class)));
     }
 }
