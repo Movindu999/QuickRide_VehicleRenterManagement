@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.example.myapplication.R;
 
@@ -14,6 +15,9 @@ public class AdminDashboardActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_dashboard);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         Button btnManageRenters = findViewById(R.id.btnManageRenters);
         Button btnManageCustomers = findViewById(R.id.btnManageCustomers);
