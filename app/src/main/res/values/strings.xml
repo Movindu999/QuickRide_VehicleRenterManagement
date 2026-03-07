@@ -2,6 +2,9 @@
     <string name="app_name">QuickRide</string>
 
     <string name="quickride_title">QuickRide</string>
+    <string name="top_app_bar">QuickRide</string>
+
+    <!-- Screen titles -->
     <string name="screen_role_selection">Select Your Role</string>
     <string name="screen_admin_dashboard">Admin Dashboard</string>
     <string name="screen_customer_dashboard">Customer Dashboard</string>
@@ -11,27 +14,39 @@
     <string name="screen_view_complaints">View Complaints</string>
     <string name="screen_view_renters">View Renters</string>
     <string name="screen_my_bookings">My Bookings</string>
+    <string name="screen_renter_dashboard">Renter Dashboard</string>
 
+    <!-- Role selection -->
     <string name="role_selection_title">Select Your Role</string>
     <string name="role_customer">Customer</string>
     <string name="role_renter">Renter</string>
     <string name="role_driver">Driver</string>
     <string name="role_admin">Admin</string>
 
+    <!-- Welcome messages -->
     <string name="welcome_admin">Manage platform operations from one place.</string>
     <string name="welcome_customer">Find vehicles and track your booking lifecycle.</string>
+<<<<<<< Updated upstream
     <string name="welcome_renter">Manage your vehicle fleet efficiently.</string>
     <string name="placeholder_admin_body">This section is ready for management controls and list content.</string>
     <string name="placeholder_customer_body">This section is ready for browsing data and booking details.</string>
 
     <string name="screen_renter_dashboard">Renter Dashboard</string>
 
+=======
+    <string name="welcome_renter">Manage your vehicles and bookings from one place.</string>
+    <string name="placeholder_admin_body">This section is ready for management controls and list content.</string>
+    <string name="placeholder_customer_body">This section is ready for browsing data and booking details.</string>
+
+    <!-- Bottom navigation -->
+>>>>>>> Stashed changes
     <string name="nav_dashboard">Dashboard</string>
     <string name="nav_renters">Renters</string>
     <string name="nav_customers">Customers</string>
     <string name="nav_bookings">Bookings</string>
     <string name="nav_complaints">Complaints</string>
     <string name="nav_my_vehicles">My Vehicles</string>
+<<<<<<< Updated upstream
     <string name="top_app_bar">QuickRide</string>
 
     <!-- Vehicle types -->
@@ -78,4 +93,32 @@
     <string name="label_start_date">Start Date:</string>
     <string name="label_end_date">End Date:</string>
     <string name="btn_cancel_booking">Cancel Booking</string>
+=======
+
+    <!-- Vehicle types -->
+    <string name="vehicle_cars">Cars</string>
+    <string name="vehicle_description_cars">Manage your car listings</string>
+    <string name="vehicle_vans">Vans</string>
+    <string name="vehicle_description_vans">Manage your van listings</string>
+    <string name="vehicle_motorbikes">Motorbikes</string>
+    <string name="vehicle_description_motorbikes">Manage your motorbike listings</string>
+    <string name="vehicle_buses">Buses</string>
+    <string name="vehicle_description_buses">Manage your bus listings</string>
+    <string name="vehicle_tuktuk">Tuk-tuks</string>
+    <string name="vehicle_description_tuktuk">Manage your tuk-tuk listings</string>
+    <string name="btn_manage">Manage</string>
+
+    <!-- Vehicle form -->
+    <string name="hint_vehicle_number">Vehicle Number</string>
+    <string name="hint_vehicle_type">Vehicle Type</string>
+    <string name="hint_price_per_day">Price Per Day (LKR)</string>
+    <string name="vehicle_images">Vehicle Images</string>
+    <string name="btn_add_image">Add Image</string>
+    <string name="tap_to_add_image">Tap to add image</string>
+    <string name="vehicle_images_note">You can add up to 5 images for your vehicle listing.</string>
+    <string name="btn_add_vehicle">Add Vehicle</string>
+    <string name="btn_update_vehicle">Update Vehicle</string>
+    <string name="btn_remove_vehicle">Remove Vehicle</string>
+    <string name="no_vehicles_message">No vehicles added yet. Tap + to add your first vehicle.</string>
+>>>>>>> Stashed changes
 </resources>
