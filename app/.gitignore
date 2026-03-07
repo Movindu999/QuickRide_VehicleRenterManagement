@@ -1,1 +1,14 @@
 /buildilkichamoda50@gmail.comd
+
+.idea
+.gradle
+/build
+/local.properties
+/.vscode
+.DS_Store
+*.iml
+*.log
+*.apk
+*.keystore
+*.jks
+.idea/
