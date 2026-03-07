@@ -16,6 +16,7 @@
     <string name="screen_add_edit_vehicle">Add / Edit Vehicle</string>
     <string name="screen_driver_dashboard">Driver Dashboard</string>
     <string name="screen_admin_dashboard">Admin Dashboard</string>
+    <string name="screen_admin_login">Admin Login</string>
 
     <!-- Splash -->
     <string name="quickride_title">QuickRide</string>
@@ -88,4 +89,7 @@
     <string name="nav_bookings">Bookings</string>
     <string name="nav_complaints">Complaints</string>
     <string name="nav_my_vehicles">My Vehicles</string>
+
+    <!-- Admin Login -->
+    <string name="admin_login_title">Admin Login</string>
 </resources>
