@@ -40,6 +40,8 @@
         <activity android:name=".renter.ManageVehiclesActivity" android:exported="true"/>
         <activity android:name=".renter.AddEditVehicleActivity" android:exported="true"/>
 
+        <activity android:name=".driver.DriverDashboardActivity" android:exported="true"/>
+
     </application>
 
 </manifest>

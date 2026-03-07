@@ -10,6 +10,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <!-- Brand palette. -->
+    <color name="brand_blue_100">#DCEEFF</color>
     <color name="brand_blue_300">#5CA3FF</color>
     <color name="brand_blue_500">#1D6FE8</color>
     <color name="brand_blue_600">#155BC0</color>
