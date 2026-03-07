@@ -55,6 +55,12 @@
             android:name="com.example.myapplication.admin.ViewComplaintsActivity"
             android:exported="true" />
         <activity
+            android:name="com.example.myapplication.customer.CustomerLoginActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.myapplication.customer.CustomerSignupActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.myapplication.customer.CustomerDashboardActivity"
             android:exported="true" />
         <activity
@@ -71,6 +77,9 @@
             android:exported="true" />
         <activity
             android:name="com.example.myapplication.renter.AddEditVehicleActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.myapplication.driver.DriverDashboardActivity"
             android:exported="true" />
 
         <provider

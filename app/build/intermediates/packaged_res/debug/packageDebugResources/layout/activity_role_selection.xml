@@ -7,92 +7,209 @@
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:elevation="0dp">
 
         <include layout="@layout/include_top_app_bar" />
     </com.google.android.material.appbar.AppBarLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layoutAnimation="@anim/role_selection_layout_fade_in"
-        android:padding="24dp"
+        android:fillViewport="true"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/roleCard"
-            style="@style/Widget.QuickRide.Card"
-            android:layout_width="0dp"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            android:layoutAnimation="@anim/role_selection_layout_fade_in"
+            android:paddingStart="20dp"
+            android:paddingTop="24dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="24dp">
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
+            <!-- Top welcome section -->
+            <TextView
+                android:id="@+id/txtWelcome"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:padding="20dp">
+                android:text="Welcome to QuickRide"
+                android:textColor="#6B7280"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-medium"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
 
-                <TextView
-                    android:id="@+id/txtTitle"
-                    style="@style/TextAppearance.QuickRide.RoleTitle"
-                    android:layout_width="wrap_content"
+            <TextView
+                android:id="@+id/txtTitle"
+                style="@style/TextAppearance.QuickRide.RoleTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/role_selection_title"
+                android:textColor="#111827"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/txtWelcome"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/txtSubtitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Select your role to continue into the system"
+                android:textColor="#6B7280"
+                android:textSize="14sp"
+                android:lineSpacingExtra="2dp"
+                app:layout_constraintTop_toBottomOf="@id/txtTitle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- Main card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/roleCard"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="28dp"
+                app:cardElevation="10dp"
+                app:strokeColor="#E5E7EB"
+                app:strokeWidth="1dp"
+                app:layout_constraintTop_toBottomOf="@id/txtSubtitle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/role_selection_title"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    android:padding="22dp">
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/btnCustomer"
-                    style="@style/Widget.QuickRide.RoleButton"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="24dp"
-                    android:stateListAnimator="@animator/role_button_state_animator"
-                    android:text="@string/role_customer"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/txtTitle" />
+                    <TextView
+                        android:id="@+id/txtCardTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Choose a role"
+                        android:textColor="#111827"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-medium"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/btnRenter"
-                    style="@style/Widget.QuickRide.RoleButton"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:stateListAnimator="@animator/role_button_state_animator"
-                    android:text="@string/role_renter"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/btnCustomer" />
+                    <TextView
+                        android:id="@+id/txtCardSubtitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="Access the correct dashboard and continue"
+                        android:textColor="#6B7280"
+                        android:textSize="13sp"
+                        app:layout_constraintTop_toBottomOf="@id/txtCardTitle"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/btnDriver"
-                    style="@style/Widget.QuickRide.RoleButton"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:stateListAnimator="@animator/role_button_state_animator"
-                    android:text="@string/role_driver"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/btnRenter" />
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnCustomer"
+                        android:layout_width="0dp"
+                        android:layout_height="56dp"
+                        android:layout_marginTop="24dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:stateListAnimator="@animator/role_button_state_animator"
+                        android:text="@string/role_customer"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        app:backgroundTint="#5B5FEF"
+                        app:cornerRadius="18dp"
+                        app:icon="@android:drawable/ic_menu_myplaces"
+                        app:iconGravity="textStart"
+                        app:iconPadding="12dp"
+                        app:iconTint="@android:color/white"
+                        app:layout_constraintTop_toBottomOf="@id/txtCardSubtitle"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/btnAdmin"
-                    style="@style/Widget.QuickRide.RoleButton"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:stateListAnimator="@animator/role_button_state_animator"
-                    android:text="@string/role_admin"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/btnDriver" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-        </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnRenter"
+                        android:layout_width="0dp"
+                        android:layout_height="56dp"
+                        android:layout_marginTop="14dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:stateListAnimator="@animator/role_button_state_animator"
+                        android:text="@string/role_renter"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        app:backgroundTint="#7C3AED"
+                        app:cornerRadius="18dp"
+                        app:icon="@android:drawable/ic_menu_agenda"
+                        app:iconGravity="textStart"
+                        app:iconPadding="12dp"
+                        app:iconTint="@android:color/white"
+                        app:layout_constraintTop_toBottomOf="@id/btnCustomer"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnDriver"
+                        android:layout_width="0dp"
+                        android:layout_height="56dp"
+                        android:layout_marginTop="14dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:stateListAnimator="@animator/role_button_state_animator"
+                        android:text="@string/role_driver"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        app:backgroundTint="#2563EB"
+                        app:cornerRadius="18dp"
+                        app:icon="@android:drawable/ic_menu_directions"
+                        app:iconGravity="textStart"
+                        app:iconPadding="12dp"
+                        app:iconTint="@android:color/white"
+                        app:layout_constraintTop_toBottomOf="@id/btnRenter"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnAdmin"
+                        android:layout_width="0dp"
+                        android:layout_height="56dp"
+                        android:layout_marginTop="14dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:stateListAnimator="@animator/role_button_state_animator"
+                        android:text="@string/role_admin"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        app:backgroundTint="#111827"
+                        app:cornerRadius="18dp"
+                        app:icon="@android:drawable/ic_lock_lock"
+                        app:iconGravity="textStart"
+                        app:iconPadding="12dp"
+                        app:iconTint="@android:color/white"
+                        app:layout_constraintTop_toBottomOf="@id/btnDriver"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

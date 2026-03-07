@@ -28,6 +28,6 @@ public class CustomerLoginActivity extends AppCompatActivity {
 
         // Temporary signup click
         tvSignUpHere.setOnClickListener(v ->
-                startActivity(new Intent(CustomerLoginActivity.this, CustomerDashboardActivity.class)));
+                startActivity(new Intent(CustomerLoginActivity.this, CustomerSignupActivity.class)));
     }
 }
