@@ -12,6 +12,14 @@
         <item name="android:fontFamily">sans-serif</item>
     </style>
 
+    <style name="TextAppearance.QuickRide.RoleTitle" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">@color/text_primary_light</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <style name="Widget.QuickRide.TopAppBar" parent="Widget.MaterialComponents.Toolbar.Primary">
         <item name="android:background">@color/brand_blue_600</item>
         <item name="titleTextColor">@color/text_on_brand</item>
@@ -46,6 +54,12 @@
         <item name="elevation">2dp</item>
     </style>
 
+    <style name="Widget.QuickRide.RoleButton" parent="Widget.QuickRide.Button.Primary">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.06</item>
+        <item name="android:minHeight">56dp</item>
+    </style>
+
     <style name="Widget.QuickRide.Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="android:minHeight">48dp</item>
         <item name="android:textAllCaps">false</item>
@@ -69,49 +83,7 @@
         <item name="cornerRadius">12dp</item>
     </style>
 
-    <!-- Alias used by renter layouts for the toolbar -->
+    <!-- Alias used by renter/driver layouts for the toolbar -->
     <style name="Widget.MaterialComponents.AppBarLayoutPrimary" parent="Widget.QuickRide.TopAppBar" />
-
-    <style name="TextAppearance.QuickRide.RoleTitle" parent="TextAppearance.MaterialComponents.Headline5">
-        <item name="android:textColor">@color/text_primary_light</item>
-        <item name="android:textSize">32sp</item>
-        <item name="android:fontFamily">sans-serif-black</item>
-        <item name="android:letterSpacing">0.01</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="Widget.QuickRide.RoleButton" parent="Widget.QuickRide.Button.Primary">
-        <item name="android:textAllCaps">true</item>
-        <item name="android:letterSpacing">0.06</item>
-        <item name="android:minHeight">56dp</item>
-    </style>
-
-    <style name="Widget.QuickRide.Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
-        <item name="android:minHeight">48dp</item>
-        <item name="android:textAllCaps">false</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-        <item name="android:textColor">@color/brand_blue_600</item>
-        <item name="strokeColor">@color/brand_blue_600</item>
-        <item name="strokeWidth">2dp</item>
-        <item name="cornerRadius">12dp</item>
-        <item name="rippleColor">@color/brand_blue_300</item>
-    </style>
-
-    <style name="Widget.QuickRide.Button.Danger" parent="Widget.MaterialComponents.Button">
-        <item name="android:minHeight">48dp</item>
-        <item name="android:textAllCaps">false</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-        <item name="android:textColor">@android:color/white</item>
-        <item name="backgroundTint">@android:color/holo_red_dark</item>
-        <item name="cornerRadius">12dp</item>
-        <item name="rippleColor">@android:color/holo_red_light</item>
-    </style>
-
-    <style name="Widget.MaterialComponents.AppBarLayoutPrimary" parent="Widget.MaterialComponents.AppBarLayout.Primary">
-        <item name="android:background">@color/brand_blue_600</item>
-        <item name="elevation">4dp</item>
-    </style>
 
 </resources>

@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.myapplication.R;
 import com.example.myapplication.admin.AdminDashboardActivity;
 import com.example.myapplication.customer.CustomerDashboardActivity;
+import com.example.myapplication.driver.DriverDashboardActivity;
 import com.example.myapplication.renter.RenterDashboardActivity;
 import com.google.android.material.appbar.MaterialToolbar;
 
@@ -33,9 +34,14 @@ public class RoleSelectionActivity extends AppCompatActivity {
         btnCustomer.setOnClickListener(v ->
                 startActivity(new Intent(RoleSelectionActivity.this, CustomerDashboardActivity.class)));
 
-
+        // Renter button
         Button btnRenter = findViewById(R.id.btnRenter);
-        btnCustomer.setOnClickListener(v ->
+        btnRenter.setOnClickListener(v ->
                 startActivity(new Intent(RoleSelectionActivity.this, RenterDashboardActivity.class)));
+
+        // Driver button
+        Button btnDriver = findViewById(R.id.btnDriver);
+        btnDriver.setOnClickListener(v ->
+                startActivity(new Intent(RoleSelectionActivity.this, DriverDashboardActivity.class)));
     }
 }
