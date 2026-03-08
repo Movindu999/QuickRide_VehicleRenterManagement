@@ -9,222 +9,222 @@
 9        android:targetSdkVersion="36" />
 10
 11    <permission
-11-->[androidx.core:core:1.13.0] C:\Users\USER\.gradle\caches\9.2.1\transforms\c484ebd49b07c8eefb628d0b4fc41b3b\workspace\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+11-->[androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\9.2.1\transforms\c484ebd49b07c8eefb628d0b4fc41b3b\workspace\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
 12        android:name="com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.13.0] C:\Users\USER\.gradle\caches\9.2.1\transforms\c484ebd49b07c8eefb628d0b4fc41b3b\workspace\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+12-->[androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\9.2.1\transforms\c484ebd49b07c8eefb628d0b4fc41b3b\workspace\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.13.0] C:\Users\USER\.gradle\caches\9.2.1\transforms\c484ebd49b07c8eefb628d0b4fc41b3b\workspace\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+13-->[androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\9.2.1\transforms\c484ebd49b07c8eefb628d0b4fc41b3b\workspace\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
 14
 15    <uses-permission android:name="com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.13.0] C:\Users\USER\.gradle\caches\9.2.1\transforms\c484ebd49b07c8eefb628d0b4fc41b3b\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.13.0] C:\Users\USER\.gradle\caches\9.2.1\transforms\c484ebd49b07c8eefb628d0b4fc41b3b\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+15-->[androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\9.2.1\transforms\c484ebd49b07c8eefb628d0b4fc41b3b\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\9.2.1\transforms\c484ebd49b07c8eefb628d0b4fc41b3b\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:5:5-49:19
+17-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:5:5-49:19
 18        android:allowBackup="true"
-18-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:6:9-35
+18-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.13.0] C:\Users\USER\.gradle\caches\9.2.1\transforms\c484ebd49b07c8eefb628d0b4fc41b3b\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+19-->[androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\9.2.1\transforms\c484ebd49b07c8eefb628d0b4fc41b3b\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:7:9-65
+20-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:7:9-65
 21        android:debuggable="true"
 22        android:extractNativeLibs="false"
 23        android:fullBackupContent="@xml/backup_rules"
-23-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:8:9-54
+23-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:8:9-54
 24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:9:9-43
+24-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:9:9-43
 25        android:label="My Application"
-25-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:10:9-39
+25-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:10:9-39
 26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:11:9-54
+26-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:11:9-54
 27        android:supportsRtl="true"
-27-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:12:9-35
+27-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:12:9-35
 28        android:testOnly="true"
 29        android:theme="@style/Theme.MyApplication" >
-29-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:13:9-51
+29-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:13:9-51
 30        <activity
-30-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:15:9-17:39
+30-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:15:9-17:39
 31            android:name="com.example.myapplication.common.RoleSelectionActivity"
-31-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:16:13-57
+31-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:16:13-57
 32            android:exported="true" />
-32-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:17:13-36
+32-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:17:13-36
 33        <activity
-33-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:19:9-28:20
+33-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:19:9-28:20
 34            android:name="com.example.myapplication.common.SplashActivity"
-34-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:20:13-50
+34-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:20:13-50
 35            android:exported="true" >
-35-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:21:13-36
+35-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:21:13-36
 36            <intent-filter>
-36-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:23:13-26:29
+36-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:23:13-26:29
 37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:24:17-69
-37-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:24:25-66
+37-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:24:17-69
+37-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:24:25-66
 38
 39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:25:17-77
-39-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:25:27-74
+39-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:25:17-77
+39-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:25:27-74
 40            </intent-filter>
 41        </activity>
 42        <activity
-42-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:29:9-86
+42-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:29:9-86
 43            android:name="com.example.myapplication.admin.AdminLoginActivity"
-43-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:29:19-59
+43-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:29:19-59
 44            android:exported="false" />
-44-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:29:60-84
+44-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:29:60-84
 45        <activity
-45-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:30:9-89
+45-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:30:9-89
 46            android:name="com.example.myapplication.admin.AdminDashboardActivity"
-46-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:30:19-63
+46-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:30:19-63
 47            android:exported="true" />
-47-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:30:64-87
+47-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:30:64-87
 48        <activity
-48-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:31:9-88
+48-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:31:9-88
 49            android:name="com.example.myapplication.admin.ManageRentersActivity"
-49-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:31:19-62
+49-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:31:19-62
 50            android:exported="true" />
-50-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:31:63-86
+50-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:31:63-86
 51        <activity
-51-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:32:9-90
+51-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:32:9-90
 52            android:name="com.example.myapplication.admin.ManageCustomersActivity"
-52-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:32:19-64
+52-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:32:19-64
 53            android:exported="true" />
-53-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:32:65-88
+53-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:32:65-88
 54        <activity
-54-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:33:9-89
+54-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:33:9-89
 55            android:name="com.example.myapplication.admin.ManageBookingsActivity"
-55-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:33:19-63
+55-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:33:19-63
 56            android:exported="true" />
-56-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:33:64-87
+56-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:33:64-87
 57        <activity
-57-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:34:9-89
+57-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:34:9-89
 58            android:name="com.example.myapplication.admin.ViewComplaintsActivity"
-58-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:34:19-63
+58-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:34:19-63
 59            android:exported="true" />
-59-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:34:64-87
+59-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:34:64-87
 60        <activity
-60-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:36:9-91
+60-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:36:9-91
 61            android:name="com.example.myapplication.customer.CustomerLoginActivity"
-61-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:36:19-65
+61-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:36:19-65
 62            android:exported="true" />
-62-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:36:66-89
+62-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:36:66-89
 63        <activity
-63-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:37:9-93
+63-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:37:9-93
 64            android:name="com.example.myapplication.customer.CustomerSignupActivity"
-64-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:37:19-66
+64-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:37:19-66
 65            android:exported="false" />
-65-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:37:67-91
+65-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:37:67-91
 66        <activity
-66-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:38:9-95
+66-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:38:9-95
 67            android:name="com.example.myapplication.customer.CustomerDashboardActivity"
-67-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:38:19-69
+67-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:38:19-69
 68            android:exported="true" />
-68-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:38:70-93
+68-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:38:70-93
 69        <activity
-69-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:39:9-89
+69-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:39:9-89
 70            android:name="com.example.myapplication.customer.ViewRentersActivity"
-70-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:39:19-63
+70-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:39:19-63
 71            android:exported="true" />
-71-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:39:64-87
+71-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:39:64-87
 72        <activity
-72-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:40:9-88
+72-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:40:9-88
 73            android:name="com.example.myapplication.customer.MyBookingsActivity"
-73-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:40:19-62
+73-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:40:19-62
 74            android:exported="true" />
-74-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:40:63-86
+74-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:40:63-86
 75        <activity
-75-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:42:9-87
+75-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:42:9-87
 76            android:name="com.example.myapplication.renter.RenterLoginActivity"
-76-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:42:19-61
+76-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:42:19-61
 77            android:exported="true" />
-77-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:42:62-85
+77-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:42:62-85
 78        <activity
-78-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:43:9-91
+78-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:43:9-91
 79            android:name="com.example.myapplication.renter.RenterDashboardActivity"
-79-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:43:19-65
+79-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:43:19-65
 80            android:exported="true" />
-80-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:43:66-89
+80-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:43:66-89
 81        <activity
-81-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:44:9-90
+81-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:44:9-90
 82            android:name="com.example.myapplication.renter.ManageVehiclesActivity"
-82-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:44:19-64
+82-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:44:19-64
 83            android:exported="true" />
-83-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:44:65-88
+83-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:44:65-88
 84        <activity
-84-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:45:9-90
+84-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:45:9-90
 85            android:name="com.example.myapplication.renter.AddEditVehicleActivity"
-85-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:45:19-64
+85-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:45:19-64
 86            android:exported="true" />
-86-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:45:65-88
+86-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:45:65-88
 87        <activity
-87-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:47:9-91
+87-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:47:9-91
 88            android:name="com.example.myapplication.driver.DriverDashboardActivity"
-88-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:47:19-65
+88-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:47:19-65
 89            android:exported="true" />
-89-->C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:47:66-89
+89-->D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:47:66-89
 90
 91        <provider
-91-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\9.2.1\transforms\894dbe60b47e8a02c274f13319df1af0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+91-->[androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\9.2.1\transforms\894dbe60b47e8a02c274f13319df1af0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
 92            android:name="androidx.startup.InitializationProvider"
-92-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\9.2.1\transforms\894dbe60b47e8a02c274f13319df1af0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+92-->[androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\9.2.1\transforms\894dbe60b47e8a02c274f13319df1af0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
 93            android:authorities="com.example.myapplication.androidx-startup"
-93-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\9.2.1\transforms\894dbe60b47e8a02c274f13319df1af0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+93-->[androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\9.2.1\transforms\894dbe60b47e8a02c274f13319df1af0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
 94            android:exported="false" >
-94-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\9.2.1\transforms\894dbe60b47e8a02c274f13319df1af0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+94-->[androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\9.2.1\transforms\894dbe60b47e8a02c274f13319df1af0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
 95            <meta-data
-95-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\9.2.1\transforms\894dbe60b47e8a02c274f13319df1af0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+95-->[androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\9.2.1\transforms\894dbe60b47e8a02c274f13319df1af0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
 96                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-96-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\9.2.1\transforms\894dbe60b47e8a02c274f13319df1af0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+96-->[androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\9.2.1\transforms\894dbe60b47e8a02c274f13319df1af0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
 97                android:value="androidx.startup" />
-97-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\9.2.1\transforms\894dbe60b47e8a02c274f13319df1af0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+97-->[androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\9.2.1\transforms\894dbe60b47e8a02c274f13319df1af0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
 98            <meta-data
-98-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\USER\.gradle\caches\9.2.1\transforms\ad6b7c2557958a67add2b70e975ded01\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+98-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\user\.gradle\caches\9.2.1\transforms\ad6b7c2557958a67add2b70e975ded01\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
 99                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-99-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\USER\.gradle\caches\9.2.1\transforms\ad6b7c2557958a67add2b70e975ded01\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+99-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\user\.gradle\caches\9.2.1\transforms\ad6b7c2557958a67add2b70e975ded01\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
 100                android:value="androidx.startup" />
-100-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\USER\.gradle\caches\9.2.1\transforms\ad6b7c2557958a67add2b70e975ded01\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+100-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\user\.gradle\caches\9.2.1\transforms\ad6b7c2557958a67add2b70e975ded01\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
 101            <meta-data
-101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
 102                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
 103                android:value="androidx.startup" />
-103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
 104        </provider>
 105
 106        <receiver
-106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
 107            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
 108            android:directBootAware="false"
-108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
 109            android:enabled="true"
-109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
 110            android:exported="true"
-110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
 111            android:permission="android.permission.DUMP" >
-111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
 112            <intent-filter>
-112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
 113                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
 114            </intent-filter>
 115            <intent-filter>
-115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
 116                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
 117            </intent-filter>
 118            <intent-filter>
-118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
 119                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
 120            </intent-filter>
 121            <intent-filter>
-121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
 122                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
 123            </intent-filter>
 124        </receiver>
 125    </application>

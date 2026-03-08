@@ -8,7 +8,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.myapplication.R;
 import com.example.myapplication.admin.AdminDashboardActivity;
+import com.example.myapplication.admin.AdminLoginActivity;
 import com.example.myapplication.customer.CustomerDashboardActivity;
+import com.example.myapplication.customer.CustomerLoginActivity;
+import com.example.myapplication.driver.DriverDashboardActivity;
 import com.example.myapplication.renter.RenterLoginActivity;
 import com.google.android.material.appbar.MaterialToolbar;
 
@@ -26,16 +29,20 @@ public class RoleSelectionActivity extends AppCompatActivity {
         // Admin button
         Button btnAdmin = findViewById(R.id.btnAdmin);
         btnAdmin.setOnClickListener(v ->
-                startActivity(new Intent(RoleSelectionActivity.this, AdminDashboardActivity.class)));
+                startActivity(new Intent(RoleSelectionActivity.this, AdminLoginActivity.class)));
 
         // Customer button
         Button btnCustomer = findViewById(R.id.btnCustomer);
         btnCustomer.setOnClickListener(v ->
-                startActivity(new Intent(RoleSelectionActivity.this, CustomerDashboardActivity.class)));
+                startActivity(new Intent(RoleSelectionActivity.this, CustomerLoginActivity.class)));
 
 
         Button btnRenter = findViewById(R.id.btnRenter);
         btnRenter.setOnClickListener(v ->
                 startActivity(new Intent(RoleSelectionActivity.this, RenterLoginActivity.class)));
+
+        Button btnDriver = findViewById(R.id.btnDriver);
+        btnDriver.setOnClickListener(v ->
+                startActivity(new Intent(RoleSelectionActivity.this, DriverDashboardActivity.class)));
     }
 }
