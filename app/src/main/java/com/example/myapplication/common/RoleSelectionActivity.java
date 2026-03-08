@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.myapplication.R;
 import com.example.myapplication.admin.AdminDashboardActivity;
 import com.example.myapplication.customer.CustomerDashboardActivity;
-import com.example.myapplication.renter.RenterDashboardActivity;
+import com.example.myapplication.renter.RenterLoginActivity;
 import com.google.android.material.appbar.MaterialToolbar;
 
 public class RoleSelectionActivity extends AppCompatActivity {
@@ -35,7 +35,7 @@ public class RoleSelectionActivity extends AppCompatActivity {
 
 
         Button btnRenter = findViewById(R.id.btnRenter);
-        btnCustomer.setOnClickListener(v ->
-                startActivity(new Intent(RoleSelectionActivity.this, RenterDashboardActivity.class)));
+        btnRenter.setOnClickListener(v ->
+                startActivity(new Intent(RoleSelectionActivity.this, RenterLoginActivity.class)));
     }
 }

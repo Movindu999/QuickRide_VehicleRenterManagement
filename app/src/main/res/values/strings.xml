@@ -33,4 +33,12 @@
     <string name="nav_complaints">Complaints</string>
     <string name="nav_my_vehicles">My Vehicles</string>
     <string name="top_app_bar">QuickRide</string>
+
+    <string name="screen_renter_login">Renter Login</string>
+    <string name="renter_login_title">Renter Login</string>
+    <string name="renter_login_subtitle">Sign in to manage your vehicle fleet.</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="error_fields_required">Please enter username and password.</string>
 </resources>

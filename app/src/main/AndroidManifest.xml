@@ -36,6 +36,7 @@
         <activity android:name=".customer.ViewRentersActivity" android:exported="true"/>
         <activity android:name=".customer.MyBookingsActivity" android:exported="true"/>
 
+        <activity android:name=".renter.RenterLoginActivity" android:exported="true"/>
         <activity android:name=".renter.RenterDashboardActivity" android:exported="true"/>
         <activity android:name=".renter.ManageVehiclesActivity" android:exported="true"/>
         <activity android:name=".renter.AddEditVehicleActivity" android:exported="true"/>
