@@ -75,6 +75,7 @@ int id etPricePerDay 0x0
 int id etUsername 0x0
 int id etVehicleNumber 0x0
 int id fabAddVehicle 0x0
+int id loginCard 0x0
 int id nav_admin_bookings 0x0
 int id nav_admin_complaints 0x0
 int id nav_admin_customers 0x0
@@ -89,6 +90,8 @@ int id recyclerViewBookings 0x0
 int id roleCard 0x0
 int id splashCard 0x0
 int id spnVehicleType 0x0
+int id tilPassword 0x0
+int id tilUsername 0x0
 int id toolbar 0x0
 int id topAppBar 0x0
 int id tvNoAccount 0x0
@@ -102,6 +105,8 @@ int id txtCustomerId 0x0
 int id txtCustomerTitle 0x0
 int id txtEmptyState 0x0
 int id txtEndDate 0x0
+int id txtLoginSubtitle 0x0
+int id txtLoginTitle 0x0
 int id txtRenterTitle 0x0
 int id txtSplash 0x0
 int id txtStartDate 0x0
@@ -112,6 +117,7 @@ int id txtWelcome 0x0
 int id vehicleRecyclerView 0x0
 int layout activity_add_edit_vehicle 0x0
 int layout activity_admin_dashboard 0x0
+int layout activity_admin_login 0x0
 int layout activity_customer_dashboard 0x0
 int layout activity_customer_login 0x0
 int layout activity_customer_signup 0x0
@@ -122,6 +128,7 @@ int layout activity_manage_renters 0x0
 int layout activity_manage_vehicles 0x0
 int layout activity_my_bookings 0x0
 int layout activity_renter_dashboard 0x0
+int layout activity_renter_login 0x0
 int layout activity_role_selection 0x0
 int layout activity_splash 0x0
 int layout activity_view_complaints 0x0
@@ -136,6 +143,7 @@ int menu menu_customer_bottom_nav 0x0
 int menu menu_renter_bottom_nav 0x0
 int mipmap ic_launcher 0x0
 int mipmap ic_launcher_round 0x0
+int string admin_login_title 0x0
 int string app_name 0x0
 int string btn_add_image 0x0
 int string btn_add_vehicle 0x0
@@ -145,6 +153,7 @@ int string btn_manage 0x0
 int string btn_remove_vehicle 0x0
 int string btn_update_vehicle 0x0
 int string customer_login_title 0x0
+int string error_fields_required 0x0
 int string hint_password 0x0
 int string hint_price_per_day 0x0
 int string hint_username 0x0
@@ -165,20 +174,28 @@ int string nav_renters 0x0
 int string no_account 0x0
 int string no_bookings_message 0x0
 int string no_vehicles_message 0x0
+int string placeholder_admin_body 0x0
 int string placeholder_customer_body 0x0
 int string quickride_title 0x0
+int string renter_login_subtitle 0x0
+int string renter_login_title 0x0
 int string role_admin 0x0
 int string role_customer 0x0
 int string role_driver 0x0
 int string role_renter 0x0
 int string role_selection_title 0x0
-int string screen_add_edit_vehicle 0x0
 int string screen_admin_dashboard 0x0
 int string screen_customer_dashboard 0x0
 int string screen_driver_dashboard 0x0
+int string screen_manage_bookings 0x0
+int string screen_manage_customers 0x0
+int string screen_manage_renters 0x0
 int string screen_manage_vehicles 0x0
 int string screen_my_bookings 0x0
 int string screen_renter_dashboard 0x0
+int string screen_renter_login 0x0
+int string screen_role_selection 0x0
+int string screen_view_complaints 0x0
 int string screen_view_renters 0x0
 int string sign_up_here 0x0
 int string tap_to_add_image 0x0
@@ -195,6 +212,7 @@ int string vehicle_images_note 0x0
 int string vehicle_motorbikes 0x0
 int string vehicle_tuktuk 0x0
 int string vehicle_vans 0x0
+int string welcome_admin 0x0
 int string welcome_customer 0x0
 int string welcome_driver_body 0x0
 int string welcome_driver_title 0x0

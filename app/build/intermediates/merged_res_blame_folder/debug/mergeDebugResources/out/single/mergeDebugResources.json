@@ -96,6 +96,10 @@
         "source": "com.example.myapplication.app-main-34:/layout/activity_manage_renters.xml"
     },
     {
+        "merged": "com.example.myapplication.app-debug-32:/layout_activity_admin_login.xml.flat",
+        "source": "com.example.myapplication.app-main-34:/layout/activity_admin_login.xml"
+    },
+    {
         "merged": "com.example.myapplication.app-debug-32:/drawable_bg_screen_surface.xml.flat",
         "source": "com.example.myapplication.app-main-34:/drawable/bg_screen_surface.xml"
     },
@@ -150,6 +154,10 @@
     {
         "merged": "com.example.myapplication.app-debug-32:/layout_item_driver_booking.xml.flat",
         "source": "com.example.myapplication.app-main-34:/layout/item_driver_booking.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-32:/layout_activity_renter_login.xml.flat",
+        "source": "com.example.myapplication.app-main-34:/layout/activity_renter_login.xml"
     },
     {
         "merged": "com.example.myapplication.app-debug-32:/layout_activity_driver_dashboard.xml.flat",

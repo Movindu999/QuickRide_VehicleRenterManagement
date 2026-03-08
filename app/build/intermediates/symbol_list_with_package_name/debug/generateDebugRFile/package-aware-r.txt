@@ -76,6 +76,7 @@ id etPricePerDay
 id etUsername
 id etVehicleNumber
 id fabAddVehicle
+id loginCard
 id nav_admin_bookings
 id nav_admin_complaints
 id nav_admin_customers
@@ -90,6 +91,8 @@ id recyclerViewBookings
 id roleCard
 id splashCard
 id spnVehicleType
+id tilPassword
+id tilUsername
 id toolbar
 id topAppBar
 id tvNoAccount
@@ -103,6 +106,8 @@ id txtCustomerId
 id txtCustomerTitle
 id txtEmptyState
 id txtEndDate
+id txtLoginSubtitle
+id txtLoginTitle
 id txtRenterTitle
 id txtSplash
 id txtStartDate
@@ -113,6 +118,7 @@ id txtWelcome
 id vehicleRecyclerView
 layout activity_add_edit_vehicle
 layout activity_admin_dashboard
+layout activity_admin_login
 layout activity_customer_dashboard
 layout activity_customer_login
 layout activity_customer_signup
@@ -123,6 +129,7 @@ layout activity_manage_renters
 layout activity_manage_vehicles
 layout activity_my_bookings
 layout activity_renter_dashboard
+layout activity_renter_login
 layout activity_role_selection
 layout activity_splash
 layout activity_view_complaints
@@ -137,6 +144,7 @@ menu menu_customer_bottom_nav
 menu menu_renter_bottom_nav
 mipmap ic_launcher
 mipmap ic_launcher_round
+string admin_login_title
 string app_name
 string btn_add_image
 string btn_add_vehicle
@@ -146,6 +154,7 @@ string btn_manage
 string btn_remove_vehicle
 string btn_update_vehicle
 string customer_login_title
+string error_fields_required
 string hint_password
 string hint_price_per_day
 string hint_username
@@ -166,20 +175,28 @@ string nav_renters
 string no_account
 string no_bookings_message
 string no_vehicles_message
+string placeholder_admin_body
 string placeholder_customer_body
 string quickride_title
+string renter_login_subtitle
+string renter_login_title
 string role_admin
 string role_customer
 string role_driver
 string role_renter
 string role_selection_title
-string screen_add_edit_vehicle
 string screen_admin_dashboard
 string screen_customer_dashboard
 string screen_driver_dashboard
+string screen_manage_bookings
+string screen_manage_customers
+string screen_manage_renters
 string screen_manage_vehicles
 string screen_my_bookings
 string screen_renter_dashboard
+string screen_renter_login
+string screen_role_selection
+string screen_view_complaints
 string screen_view_renters
 string sign_up_here
 string tap_to_add_image
@@ -196,6 +213,7 @@ string vehicle_images_note
 string vehicle_motorbikes
 string vehicle_tuktuk
 string vehicle_vans
+string welcome_admin
 string welcome_customer
 string welcome_driver_body
 string welcome_driver_title

@@ -1,36 +1,36 @@
-com.example.myapplication.app-drawerlayout-1.1.1-0 C:\Users\user\.gradle\caches\9.2.1\transforms\03b5e324f22308d4e4fe990d12cfbde8\workspace\transformed\drawerlayout-1.1.1\res
-com.example.myapplication.app-fragment-1.5.4-1 C:\Users\user\.gradle\caches\9.2.1\transforms\04eed63f975d972997f443db0fd35f32\workspace\transformed\fragment-1.5.4\res
-com.example.myapplication.app-viewpager2-1.0.0-2 C:\Users\user\.gradle\caches\9.2.1\transforms\11c1b245032b937bb335d7b85f736b85\workspace\transformed\viewpager2-1.0.0\res
-com.example.myapplication.app-lifecycle-livedata-core-2.6.2-3 C:\Users\user\.gradle\caches\9.2.1\transforms\11dfa5c53e32e09318cc9c53aa2e558b\workspace\transformed\lifecycle-livedata-core-2.6.2\res
-com.example.myapplication.app-coordinatorlayout-1.1.0-4 C:\Users\user\.gradle\caches\9.2.1\transforms\18ab3cb2547535d9af597954ee0c6255\workspace\transformed\coordinatorlayout-1.1.0\res
-com.example.myapplication.app-recyclerview-1.2.1-5 C:\Users\user\.gradle\caches\9.2.1\transforms\2158075b4c54a6e78e6f940575f319e4\workspace\transformed\recyclerview-1.2.1\res
-com.example.myapplication.app-startup-runtime-1.1.1-6 C:\Users\user\.gradle\caches\9.2.1\transforms\21d57c7684a8e40b3c5de4b19df1d659\workspace\transformed\startup-runtime-1.1.1\res
-com.example.myapplication.app-lifecycle-viewmodel-2.6.2-7 C:\Users\user\.gradle\caches\9.2.1\transforms\25d53a92ebf3e6e618cbfae1b702a413\workspace\transformed\lifecycle-viewmodel-2.6.2\res
-com.example.myapplication.app-material-1.13.0-8 C:\Users\user\.gradle\caches\9.2.1\transforms\3385233414e85c1adb39ff8ebfc4fafa\workspace\transformed\material-1.13.0\res
-com.example.myapplication.app-appcompat-1.7.1-9 C:\Users\user\.gradle\caches\9.2.1\transforms\3d0ae99432010a4c9e405d987b5c317a\workspace\transformed\appcompat-1.7.1\res
-com.example.myapplication.app-profileinstaller-1.3.1-10 C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\res
-com.example.myapplication.app-annotation-experimental-1.4.1-11 C:\Users\user\.gradle\caches\9.2.1\transforms\51ce063e24ad496bd510411ce830dbbf\workspace\transformed\annotation-experimental-1.4.1\res
-com.example.myapplication.app-appcompat-resources-1.7.1-12 C:\Users\user\.gradle\caches\9.2.1\transforms\6f28e684dfbc238c7a7aa20bb4fbe486\workspace\transformed\appcompat-resources-1.7.1\res
-com.example.myapplication.app-transition-1.5.0-13 C:\Users\user\.gradle\caches\9.2.1\transforms\7a04c4cce0d9957e7d6e664966bf316f\workspace\transformed\transition-1.5.0\res
-com.example.myapplication.app-core-ktx-1.13.0-14 C:\Users\user\.gradle\caches\9.2.1\transforms\7d7ca202e378948826a39e2ca5ef4ace\workspace\transformed\core-ktx-1.13.0\res
-com.example.myapplication.app-graphics-shapes-release-15 C:\Users\user\.gradle\caches\9.2.1\transforms\88e1d5b8ebea09d2233c80a55faa09a2\workspace\transformed\graphics-shapes-release\res
-com.example.myapplication.app-emoji2-1.3.0-16 C:\Users\user\.gradle\caches\9.2.1\transforms\894dbe60b47e8a02c274f13319df1af0\workspace\transformed\emoji2-1.3.0\res
-com.example.myapplication.app-core-runtime-2.2.0-17 C:\Users\user\.gradle\caches\9.2.1\transforms\aac57d958659eb7a376a157a11a7396f\workspace\transformed\core-runtime-2.2.0\res
-com.example.myapplication.app-lifecycle-process-2.6.2-18 C:\Users\user\.gradle\caches\9.2.1\transforms\ad6b7c2557958a67add2b70e975ded01\workspace\transformed\lifecycle-process-2.6.2\res
-com.example.myapplication.app-lifecycle-viewmodel-savedstate-2.6.2-19 C:\Users\user\.gradle\caches\9.2.1\transforms\aed58513f7bcc4bb83adf2d4bb59f5bd\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
-com.example.myapplication.app-emoji2-views-helper-1.3.0-20 C:\Users\user\.gradle\caches\9.2.1\transforms\b45d26f36087abe5d8694942a51162c0\workspace\transformed\emoji2-views-helper-1.3.0\res
-com.example.myapplication.app-dynamicanimation-1.1.0-21 C:\Users\user\.gradle\caches\9.2.1\transforms\c3ef67fd78197b49b04b5475f3d05e96\workspace\transformed\dynamicanimation-1.1.0\res
-com.example.myapplication.app-core-1.13.0-22 C:\Users\user\.gradle\caches\9.2.1\transforms\c484ebd49b07c8eefb628d0b4fc41b3b\workspace\transformed\core-1.13.0\res
-com.example.myapplication.app-constraintlayout-2.1.0-23 C:\Users\user\.gradle\caches\9.2.1\transforms\c6524813d9efdb96376e99d6a1ad93d1\workspace\transformed\constraintlayout-2.1.0\res
-com.example.myapplication.app-lifecycle-livedata-2.6.2-24 C:\Users\user\.gradle\caches\9.2.1\transforms\cabf0bfc47d610f4279e9d8cf52d5bc7\workspace\transformed\lifecycle-livedata-2.6.2\res
-com.example.myapplication.app-lifecycle-runtime-2.6.2-25 C:\Users\user\.gradle\caches\9.2.1\transforms\d0b98089fbc371cee1d74c7f279178fe\workspace\transformed\lifecycle-runtime-2.6.2\res
-com.example.myapplication.app-cardview-1.0.0-26 C:\Users\user\.gradle\caches\9.2.1\transforms\d282784697df4abe85e3e6f41b2a6123\workspace\transformed\cardview-1.0.0\res
-com.example.myapplication.app-savedstate-1.2.1-27 C:\Users\user\.gradle\caches\9.2.1\transforms\e1b8a919cee2e671bd4a3f10868f4207\workspace\transformed\savedstate-1.2.1\res
-com.example.myapplication.app-activity-1.8.0-28 C:\Users\user\.gradle\caches\9.2.1\transforms\e9ed65b28db52da57f61c3b53a069a47\workspace\transformed\activity-1.8.0\res
-com.example.myapplication.app-pngs-29 D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\build\generated\res\pngs\debug
-com.example.myapplication.app-updated_navigation_xml-30 D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\build\generated\updated_navigation_xml\debug
-com.example.myapplication.app-packageDebugResources-31 D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.myapplication.app-packageDebugResources-32 D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.myapplication.app-debug-33 D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.example.myapplication.app-debug-34 D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\debug\res
-com.example.myapplication.app-main-35 D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\res
+com.example.myapplication.app-drawerlayout-1.1.1-0 C:\Users\USER\.gradle\caches\9.2.1\transforms\03b5e324f22308d4e4fe990d12cfbde8\workspace\transformed\drawerlayout-1.1.1\res
+com.example.myapplication.app-fragment-1.5.4-1 C:\Users\USER\.gradle\caches\9.2.1\transforms\04eed63f975d972997f443db0fd35f32\workspace\transformed\fragment-1.5.4\res
+com.example.myapplication.app-viewpager2-1.0.0-2 C:\Users\USER\.gradle\caches\9.2.1\transforms\11c1b245032b937bb335d7b85f736b85\workspace\transformed\viewpager2-1.0.0\res
+com.example.myapplication.app-lifecycle-livedata-core-2.6.2-3 C:\Users\USER\.gradle\caches\9.2.1\transforms\11dfa5c53e32e09318cc9c53aa2e558b\workspace\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.myapplication.app-coordinatorlayout-1.1.0-4 C:\Users\USER\.gradle\caches\9.2.1\transforms\18ab3cb2547535d9af597954ee0c6255\workspace\transformed\coordinatorlayout-1.1.0\res
+com.example.myapplication.app-recyclerview-1.2.1-5 C:\Users\USER\.gradle\caches\9.2.1\transforms\2158075b4c54a6e78e6f940575f319e4\workspace\transformed\recyclerview-1.2.1\res
+com.example.myapplication.app-startup-runtime-1.1.1-6 C:\Users\USER\.gradle\caches\9.2.1\transforms\21d57c7684a8e40b3c5de4b19df1d659\workspace\transformed\startup-runtime-1.1.1\res
+com.example.myapplication.app-lifecycle-viewmodel-2.6.2-7 C:\Users\USER\.gradle\caches\9.2.1\transforms\25d53a92ebf3e6e618cbfae1b702a413\workspace\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.myapplication.app-material-1.13.0-8 C:\Users\USER\.gradle\caches\9.2.1\transforms\3385233414e85c1adb39ff8ebfc4fafa\workspace\transformed\material-1.13.0\res
+com.example.myapplication.app-appcompat-1.7.1-9 C:\Users\USER\.gradle\caches\9.2.1\transforms\3d0ae99432010a4c9e405d987b5c317a\workspace\transformed\appcompat-1.7.1\res
+com.example.myapplication.app-profileinstaller-1.3.1-10 C:\Users\USER\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\res
+com.example.myapplication.app-annotation-experimental-1.4.1-11 C:\Users\USER\.gradle\caches\9.2.1\transforms\51ce063e24ad496bd510411ce830dbbf\workspace\transformed\annotation-experimental-1.4.1\res
+com.example.myapplication.app-appcompat-resources-1.7.1-12 C:\Users\USER\.gradle\caches\9.2.1\transforms\6f28e684dfbc238c7a7aa20bb4fbe486\workspace\transformed\appcompat-resources-1.7.1\res
+com.example.myapplication.app-transition-1.5.0-13 C:\Users\USER\.gradle\caches\9.2.1\transforms\7a04c4cce0d9957e7d6e664966bf316f\workspace\transformed\transition-1.5.0\res
+com.example.myapplication.app-core-ktx-1.13.0-14 C:\Users\USER\.gradle\caches\9.2.1\transforms\7d7ca202e378948826a39e2ca5ef4ace\workspace\transformed\core-ktx-1.13.0\res
+com.example.myapplication.app-graphics-shapes-release-15 C:\Users\USER\.gradle\caches\9.2.1\transforms\88e1d5b8ebea09d2233c80a55faa09a2\workspace\transformed\graphics-shapes-release\res
+com.example.myapplication.app-emoji2-1.3.0-16 C:\Users\USER\.gradle\caches\9.2.1\transforms\894dbe60b47e8a02c274f13319df1af0\workspace\transformed\emoji2-1.3.0\res
+com.example.myapplication.app-core-runtime-2.2.0-17 C:\Users\USER\.gradle\caches\9.2.1\transforms\aac57d958659eb7a376a157a11a7396f\workspace\transformed\core-runtime-2.2.0\res
+com.example.myapplication.app-lifecycle-process-2.6.2-18 C:\Users\USER\.gradle\caches\9.2.1\transforms\ad6b7c2557958a67add2b70e975ded01\workspace\transformed\lifecycle-process-2.6.2\res
+com.example.myapplication.app-lifecycle-viewmodel-savedstate-2.6.2-19 C:\Users\USER\.gradle\caches\9.2.1\transforms\aed58513f7bcc4bb83adf2d4bb59f5bd\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.myapplication.app-emoji2-views-helper-1.3.0-20 C:\Users\USER\.gradle\caches\9.2.1\transforms\b45d26f36087abe5d8694942a51162c0\workspace\transformed\emoji2-views-helper-1.3.0\res
+com.example.myapplication.app-dynamicanimation-1.1.0-21 C:\Users\USER\.gradle\caches\9.2.1\transforms\c3ef67fd78197b49b04b5475f3d05e96\workspace\transformed\dynamicanimation-1.1.0\res
+com.example.myapplication.app-core-1.13.0-22 C:\Users\USER\.gradle\caches\9.2.1\transforms\c484ebd49b07c8eefb628d0b4fc41b3b\workspace\transformed\core-1.13.0\res
+com.example.myapplication.app-constraintlayout-2.1.0-23 C:\Users\USER\.gradle\caches\9.2.1\transforms\c6524813d9efdb96376e99d6a1ad93d1\workspace\transformed\constraintlayout-2.1.0\res
+com.example.myapplication.app-lifecycle-livedata-2.6.2-24 C:\Users\USER\.gradle\caches\9.2.1\transforms\cabf0bfc47d610f4279e9d8cf52d5bc7\workspace\transformed\lifecycle-livedata-2.6.2\res
+com.example.myapplication.app-lifecycle-runtime-2.6.2-25 C:\Users\USER\.gradle\caches\9.2.1\transforms\d0b98089fbc371cee1d74c7f279178fe\workspace\transformed\lifecycle-runtime-2.6.2\res
+com.example.myapplication.app-cardview-1.0.0-26 C:\Users\USER\.gradle\caches\9.2.1\transforms\d282784697df4abe85e3e6f41b2a6123\workspace\transformed\cardview-1.0.0\res
+com.example.myapplication.app-savedstate-1.2.1-27 C:\Users\USER\.gradle\caches\9.2.1\transforms\e1b8a919cee2e671bd4a3f10868f4207\workspace\transformed\savedstate-1.2.1\res
+com.example.myapplication.app-activity-1.8.0-28 C:\Users\USER\.gradle\caches\9.2.1\transforms\e9ed65b28db52da57f61c3b53a069a47\workspace\transformed\activity-1.8.0\res
+com.example.myapplication.app-pngs-29 C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\build\generated\res\pngs\debug
+com.example.myapplication.app-updated_navigation_xml-30 C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\build\generated\updated_navigation_xml\debug
+com.example.myapplication.app-packageDebugResources-31 C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.myapplication.app-packageDebugResources-32 C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.myapplication.app-debug-33 C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.myapplication.app-debug-34 C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\debug\res
+com.example.myapplication.app-main-35 C:\Users\USER\StudioProjects\QuickRide_VehicleRenterManagement\app\src\main\res

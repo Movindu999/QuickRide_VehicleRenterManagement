@@ -40,6 +40,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.example.myapplication.admin.AdminLoginActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.myapplication.admin.AdminDashboardActivity"
             android:exported="true" />
         <activity
@@ -68,6 +71,9 @@
             android:exported="true" />
         <activity
             android:name="com.example.myapplication.customer.MyBookingsActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.myapplication.renter.RenterLoginActivity"
             android:exported="true" />
         <activity
             android:name="com.example.myapplication.renter.RenterDashboardActivity"
