@@ -12,6 +12,7 @@ import com.example.myapplication.admin.AdminLoginActivity;
 import com.example.myapplication.customer.CustomerDashboardActivity;
 import com.example.myapplication.customer.CustomerLoginActivity;
 import com.example.myapplication.driver.DriverDashboardActivity;
+import com.example.myapplication.driver.DriverLoginActivity;
 import com.example.myapplication.renter.RenterLoginActivity;
 import com.google.android.material.appbar.MaterialToolbar;
 
@@ -43,6 +44,6 @@ public class RoleSelectionActivity extends AppCompatActivity {
 
         Button btnDriver = findViewById(R.id.btnDriver);
         btnDriver.setOnClickListener(v ->
-                startActivity(new Intent(RoleSelectionActivity.this, DriverDashboardActivity.class)));
+                startActivity(new Intent(RoleSelectionActivity.this, DriverLoginActivity.class)));
     }
 }

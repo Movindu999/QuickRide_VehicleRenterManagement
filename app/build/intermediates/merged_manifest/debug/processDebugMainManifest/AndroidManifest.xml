@@ -85,6 +85,9 @@
             android:name="com.example.myapplication.renter.AddEditVehicleActivity"
             android:exported="true" />
         <activity
+            android:name="com.example.myapplication.driver.DriverLoginActivity"
+            android:exported="true" />
+        <activity
             android:name="com.example.myapplication.driver.DriverDashboardActivity"
             android:exported="true" />
 

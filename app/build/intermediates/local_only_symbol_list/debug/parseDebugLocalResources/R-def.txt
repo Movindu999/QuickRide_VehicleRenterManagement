@@ -124,6 +124,7 @@ layout activity_customer_dashboard
 layout activity_customer_login
 layout activity_customer_signup
 layout activity_driver_dashboard
+layout activity_driver_login
 layout activity_manage_bookings
 layout activity_manage_customers
 layout activity_manage_renters

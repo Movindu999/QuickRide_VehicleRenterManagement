@@ -88,6 +88,10 @@
         "source": "com.example.myapplication.app-main-34:/layout/activity_my_bookings.xml"
     },
     {
+        "merged": "com.example.myapplication.app-debug-32:/layout_activity_driver_login.xml.flat",
+        "source": "com.example.myapplication.app-main-34:/layout/activity_driver_login.xml"
+    },
+    {
         "merged": "com.example.myapplication.app-debug-32:/layout_activity_view_complaints.xml.flat",
         "source": "com.example.myapplication.app-main-34:/layout/activity_view_complaints.xml"
     },

@@ -122,6 +122,7 @@ int layout activity_customer_dashboard 0x0
 int layout activity_customer_login 0x0
 int layout activity_customer_signup 0x0
 int layout activity_driver_dashboard 0x0
+int layout activity_driver_login 0x0
 int layout activity_manage_bookings 0x0
 int layout activity_manage_customers 0x0
 int layout activity_manage_renters 0x0
