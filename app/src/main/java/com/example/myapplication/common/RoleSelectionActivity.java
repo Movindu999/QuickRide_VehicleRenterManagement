@@ -7,10 +7,10 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.myapplication.R;
-import com.example.myapplication.admin.AdminLoginActivity;
-import com.example.myapplication.customer.CustomerLoginActivity;
-import com.example.myapplication.driver.DriverDashboardActivity;
-import com.example.myapplication.renter.RenterDashboardActivity;
+import com.example.myapplication.admin.AdminDashboardActivity;
+import com.example.myapplication.customer.CustomerDashboardActivity;
+import com.example.myapplication.renter.RenterLoginActivity;
+import com.google.android.material.appbar.MaterialToolbar;
 
 public class RoleSelectionActivity extends AppCompatActivity {
 
@@ -19,23 +19,23 @@ public class RoleSelectionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_role_selection);
 
-        // Get buttons from XML
-        Button btnAdmin    = findViewById(R.id.btnAdmin);
-        Button btnCustomer = findViewById(R.id.btnCustomer);
-        Button btnRenter   = findViewById(R.id.btnRenter);
-        Button btnDriver   = findViewById(R.id.btnDriver);
+        MaterialToolbar topAppBar = findViewById(R.id.topAppBar);
+        setSupportActionBar(topAppBar);
+        topAppBar.setTitle(R.string.screen_role_selection);
 
-        // Set onClick listeners for each button to navigate to the respective login screen
+        // Admin button
+        Button btnAdmin = findViewById(R.id.btnAdmin);
         btnAdmin.setOnClickListener(v ->
-                startActivity(new Intent(this, AdminLoginActivity.class)));
+                startActivity(new Intent(RoleSelectionActivity.this, AdminDashboardActivity.class)));
 
+        // Customer button
+        Button btnCustomer = findViewById(R.id.btnCustomer);
         btnCustomer.setOnClickListener(v ->
-                startActivity(new Intent(this, CustomerLoginActivity.class)));
+                startActivity(new Intent(RoleSelectionActivity.this, CustomerDashboardActivity.class)));
 
+
+        Button btnRenter = findViewById(R.id.btnRenter);
         btnRenter.setOnClickListener(v ->
-                startActivity(new Intent(this, RenterDashboardActivity.class)));
-
-        btnDriver.setOnClickListener(v ->
-                startActivity(new Intent(this, DriverDashboardActivity.class)));
+                startActivity(new Intent(RoleSelectionActivity.this, RenterLoginActivity.class)));
     }
 }
