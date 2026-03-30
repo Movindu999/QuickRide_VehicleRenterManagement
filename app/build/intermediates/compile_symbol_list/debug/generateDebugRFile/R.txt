@@ -155,6 +155,11 @@ int string btn_remove_vehicle 0x0
 int string btn_update_vehicle 0x0
 int string customer_login_title 0x0
 int string error_fields_required 0x0
+int string gcm_defaultSenderId 0x0
+int string google_api_key 0x0
+int string google_app_id 0x0
+int string google_crash_reporting_api_key 0x0
+int string google_storage_bucket 0x0
 int string hint_password 0x0
 int string hint_price_per_day 0x0
 int string hint_username 0x0
@@ -177,6 +182,7 @@ int string no_bookings_message 0x0
 int string no_vehicles_message 0x0
 int string placeholder_admin_body 0x0
 int string placeholder_customer_body 0x0
+int string project_id 0x0
 int string quickride_title 0x0
 int string renter_login_subtitle 0x0
 int string renter_login_title 0x0

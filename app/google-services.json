@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "927386559479",
+    "project_id": "quickride-bee1f",
+    "storage_bucket": "quickride-bee1f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927386559479:android:ce4bf0aeb8f453d85e84f2",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPPu5j1U9Stc0s0RLNmVh_0b5GcpU5jw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

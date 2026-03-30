@@ -37,6 +37,11 @@
     <string name="btn_update_vehicle">Update Vehicle</string>
     <string name="customer_login_title">Customer Login</string>
     <string name="error_fields_required">Please enter username and password.</string>
+    <string name="gcm_defaultSenderId" translatable="false">927386559479</string>
+    <string name="google_api_key" translatable="false">AIzaSyCPPu5j1U9Stc0s0RLNmVh_0b5GcpU5jw8</string>
+    <string name="google_app_id" translatable="false">1:927386559479:android:ce4bf0aeb8f453d85e84f2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCPPu5j1U9Stc0s0RLNmVh_0b5GcpU5jw8</string>
+    <string name="google_storage_bucket" translatable="false">quickride-bee1f.firebasestorage.app</string>
     <string name="hint_password">Password</string>
     <string name="hint_price_per_day">Price Per Day</string>
     <string name="hint_username">Username</string>
@@ -59,6 +64,7 @@
     <string name="no_vehicles_message">No vehicles added yet.</string>
     <string name="placeholder_admin_body">This section is ready for management controls and list content.</string>
     <string name="placeholder_customer_body">This section is ready for browsing data and booking details.</string>
+    <string name="project_id" translatable="false">quickride-bee1f</string>
     <string name="quickride_title">QuickRide</string>
     <string name="renter_login_subtitle">Sign in to manage your vehicle fleet.</string>
     <string name="renter_login_title">Renter Login</string>
