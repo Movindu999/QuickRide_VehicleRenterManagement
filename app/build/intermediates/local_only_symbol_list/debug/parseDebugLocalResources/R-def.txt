@@ -42,13 +42,16 @@ drawable ic_launcher_foreground
 id bottomNavAdmin
 id bottomNavCustomer
 id bottomNavRenter
+id btnAccount
 id btnAddImage
 id btnAddVehicle
 id btnAdmin
 id btnCancelBooking
 id btnCustomer
+id btnDeleteAccount
 id btnDriver
 id btnLogin
+id btnLogout
 id btnManageBookings
 id btnManageBuses
 id btnManageCars
@@ -61,6 +64,7 @@ id btnMyBookings
 id btnRemoveVehicle
 id btnRenter
 id btnSignIn
+id btnUpdateProfile
 id btnUpdateVehicle
 id btnViewComplaints
 id btnViewRenters
@@ -71,6 +75,7 @@ id etContact
 id etEmail
 id etFirstName
 id etLastName
+id etNIC
 id etNicLicense
 id etPassword
 id etPricePerDay
@@ -122,6 +127,7 @@ layout activity_admin_dashboard
 layout activity_admin_login
 layout activity_customer_dashboard
 layout activity_customer_login
+layout activity_customer_profile
 layout activity_customer_signup
 layout activity_driver_dashboard
 layout activity_driver_login

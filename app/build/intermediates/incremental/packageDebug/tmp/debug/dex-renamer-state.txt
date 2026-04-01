@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 #Sun Mar 08 12:54:51 IST 2026
+=======
+#Wed Apr 01 12:51:08 IST 2026
+>>>>>>> Stashed changes
 base.0=D\:\\NIBM\\HD\\CW\\8 - Mobile\\QuickRide_VehicleRenterManagement\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\NIBM\\HD\\CW\\8 - Mobile\\QuickRide_VehicleRenterManagement\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=D\:\\NIBM\\HD\\CW\\8 - Mobile\\QuickRide_VehicleRenterManagement\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex

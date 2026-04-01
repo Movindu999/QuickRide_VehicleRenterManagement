@@ -73,6 +73,9 @@
             android:name="com.example.myapplication.customer.MyBookingsActivity"
             android:exported="true" />
         <activity
+            android:name="com.example.myapplication.customer.CustomerProfileActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.myapplication.renter.RenterLoginActivity"
             android:exported="true" />
         <activity

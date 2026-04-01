@@ -65,6 +65,14 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:text="@string/screen_my_bookings" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnAccount"
+                        style="@style/Widget.QuickRide.Button.Primary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Account" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>

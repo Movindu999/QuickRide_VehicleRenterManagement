@@ -1,5 +1,6 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< Updated upstream
 ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:2:1-52:12
 INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:2:1-52:12
 INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:2:1-52:12
@@ -42,6 +43,74 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\cache
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\4471dd0850f06d53a26d6b23493777d3\workspace\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\21a54c875dd87318f9155e6d387bb036\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\user\.gradle\caches\9.2.1\transforms\aac57d958659eb7a376a157a11a7396f\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+=======
+ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:2:1-53:12
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\user\.gradle\caches\9.2.1\transforms\c8bea00ae1edc35845e89ac7cbc2d2fa\workspace\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\user\.gradle\caches\9.2.1\transforms\8dd34138f0ce7cbb092036347d14dd39\workspace\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\user\.gradle\caches\9.2.1\transforms\90a39697acfedcc21eda0bb0b14dc480\workspace\transformed\constraintlayout-2.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\user\.gradle\caches\9.2.1\transforms\b75dd654262ce6be6c93301f9e0a9a4b\workspace\transformed\appcompat-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\e189305ea9946c15daecdb2badc0d479\workspace\transformed\firebase-auth-23.0.0\AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\5e8e6e3fdaa9f097931546d3e572c98b\workspace\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\c4cc9d13ceab9c51d889df6f289a015f\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\user\.gradle\caches\9.2.1\transforms\54046d445375778990edae2561ab29e2\workspace\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\user\.gradle\caches\9.2.1\transforms\d8a68aaed6ac3fb7a11a512573fae1dd\workspace\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\user\.gradle\caches\9.2.1\transforms\6bd18ff59b504e313a876204c63e61f2\workspace\transformed\play-services-auth-20.7.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\user\.gradle\caches\9.2.1\transforms\01101f177bd5bcde564bb47939636ce3\workspace\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\user\.gradle\caches\9.2.1\transforms\b61b8ec00483db410adb7411cef7bc48\workspace\transformed\recaptcha-18.4.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\user\.gradle\caches\9.2.1\transforms\cce5c3775d51d2b45eac53d7b14e39c7\workspace\transformed\integrity-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\46bfb4070c3bc5a7428e5b569b599a63\workspace\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\9140b6bd0a0fb1fdc9140929061b6150\workspace\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\1b686e693f1cddfb0ac777db32c34a0a\workspace\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\83f736f4aa1705a15c6770dc5863c077\workspace\transformed\firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\user\.gradle\caches\9.2.1\transforms\4b8fbc0d008a5d030f4ddb08a0402264\workspace\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\user\.gradle\caches\9.2.1\transforms\08528f9022330624087eab4d9410f523\workspace\transformed\play-services-fido-20.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\user\.gradle\caches\9.2.1\transforms\4f5799823539b3cf2205b393016ac559\workspace\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\user\.gradle\caches\9.2.1\transforms\adcbe3600c6a1e982d4d0725c8f80fb8\workspace\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\user\.gradle\caches\9.2.1\transforms\99f0bf03f164f77b7581f5bce2ba5b60\workspace\transformed\graphics-shapes-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\user\.gradle\caches\9.2.1\transforms\46bce0e27eaf2f178f84f363134971c9\workspace\transformed\core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\user\.gradle\caches\9.2.1\transforms\59d47153e80e417f579005eb1abdbfed\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\9.2.1\transforms\9dcded186f1ec0f36255bd209dcf9d25\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\user\.gradle\caches\9.2.1\transforms\0dcbd40595b090542d6b3b2ca1881dfa\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\user\.gradle\caches\9.2.1\transforms\fa555e9442e16c7055d84b531d7188b4\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\user\.gradle\caches\9.2.1\transforms\0a515215218bdd53bcaa22a98bee55de\workspace\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\user\.gradle\caches\9.2.1\transforms\8287110b1d9d821861d12005e4db430a\workspace\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\user\.gradle\caches\9.2.1\transforms\133f5182d4460216b444f126c40eee2c\workspace\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\user\.gradle\caches\9.2.1\transforms\ddbb70887902e41e233b8dd2b03216bd\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\user\.gradle\caches\9.2.1\transforms\2c15c6499959e6d783443af382201d3c\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\user\.gradle\caches\9.2.1\transforms\d2fcb48c043d3d04cd8928a192d9a82a\workspace\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\70081289752b934a4536b7c30c8881af\workspace\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\2bcc44de15134c20c21881b336c9376d\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\user\.gradle\caches\9.2.1\transforms\b2ce4e95c3fe4e0b035791240f9ad32a\workspace\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\9.2.1\transforms\e0436bfe30339e6834209857d058146a\workspace\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\user\.gradle\caches\9.2.1\transforms\14c2e00a1a784b52a492032be90bedf5\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\user\.gradle\caches\9.2.1\transforms\b66da0a456967b72ec9147d94faf996a\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\user\.gradle\caches\9.2.1\transforms\16435765ad46e1a295b3de5c386df1b4\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\user\.gradle\caches\9.2.1\transforms\13c939aad99856e553fec233e252af1a\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\user\.gradle\caches\9.2.1\transforms\eaa2d3e38a275a3576063756408598d6\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\user\.gradle\caches\9.2.1\transforms\c94342e3093741fbbdc1ad38bc3ea01e\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\user\.gradle\caches\9.2.1\transforms\197925d3806231058ec8838ca622b2fd\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\user\.gradle\caches\9.2.1\transforms\ea4e06102e0ff9a48ba25c00e3dc2d08\workspace\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\user\.gradle\caches\9.2.1\transforms\55b37125b5536a257e658ced755e1d00\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\user\.gradle\caches\9.2.1\transforms\36267a27985200398e1c65d1387099bb\workspace\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\user\.gradle\caches\9.2.1\transforms\9e33a212e240dafe2c946787d860dc02\workspace\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\user\.gradle\caches\9.2.1\transforms\0e9e86094c50abfa0c834bd40303f41e\workspace\transformed\googleid-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\9.2.1\transforms\4ee476b20c2074830afa7d3a1944a5f7\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\user\.gradle\caches\9.2.1\transforms\a161d13df9df9848e0a973bd5330afe5\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\3775eb6cdc1afab914728cff473a3cca\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\cdcbba71bfeb3cab868e75120860ef62\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\b1f973e013ba0b0855eaff0b02191a72\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\132a5fc427aa2c0da5cc7ffc0dba474e\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\bf9082677eade2e645deaab140343517\workspace\transformed\firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\caches\9.2.1\transforms\39712a4ae28cc9f942dd76976c8bc099\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\f81545f75f9236ac51c0f5fa54bacf19\workspace\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\a4c84a789400a16d24e42c1437d428b8\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\user\.gradle\caches\9.2.1\transforms\b29b4edb25e0e3e8413c9e918335391a\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\user\.gradle\caches\9.2.1\transforms\65903494382778d62833858eb32720e9\workspace\transformed\grpc-android-1.57.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\d11a58c9af7bc9330f1a605f71467169\workspace\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+>>>>>>> Stashed changes
 	package
 		INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -53,6 +122,7 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\user\.gradle\caches
 	xmlns:android
 		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:2:11-69
 application
+<<<<<<< Updated upstream
 ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:5:5-50:19
 INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:5:5-50:19
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\user\.gradle\caches\9.2.1\transforms\3385233414e85c1adb39ff8ebfc4fafa\workspace\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
@@ -71,6 +141,52 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gr
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\3fc992b5e9f843c9622eb16a5f7dc40a\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\caches\9.2.1\transforms\21d57c7684a8e40b3c5de4b19df1d659\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\caches\9.2.1\transforms\21d57c7684a8e40b3c5de4b19df1d659\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+=======
+ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:5:5-51:19
+INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:5:5-51:19
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\user\.gradle\caches\9.2.1\transforms\c8bea00ae1edc35845e89ac7cbc2d2fa\workspace\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\user\.gradle\caches\9.2.1\transforms\c8bea00ae1edc35845e89ac7cbc2d2fa\workspace\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\user\.gradle\caches\9.2.1\transforms\90a39697acfedcc21eda0bb0b14dc480\workspace\transformed\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\user\.gradle\caches\9.2.1\transforms\90a39697acfedcc21eda0bb0b14dc480\workspace\transformed\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\e189305ea9946c15daecdb2badc0d479\workspace\transformed\firebase-auth-23.0.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\e189305ea9946c15daecdb2badc0d479\workspace\transformed\firebase-auth-23.0.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\5e8e6e3fdaa9f097931546d3e572c98b\workspace\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\5e8e6e3fdaa9f097931546d3e572c98b\workspace\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:13:5-24:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\user\.gradle\caches\9.2.1\transforms\d8a68aaed6ac3fb7a11a512573fae1dd\workspace\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\user\.gradle\caches\9.2.1\transforms\d8a68aaed6ac3fb7a11a512573fae1dd\workspace\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\user\.gradle\caches\9.2.1\transforms\6bd18ff59b504e313a876204c63e61f2\workspace\transformed\play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\user\.gradle\caches\9.2.1\transforms\6bd18ff59b504e313a876204c63e61f2\workspace\transformed\play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\user\.gradle\caches\9.2.1\transforms\cce5c3775d51d2b45eac53d7b14e39c7\workspace\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\user\.gradle\caches\9.2.1\transforms\cce5c3775d51d2b45eac53d7b14e39c7\workspace\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\46bfb4070c3bc5a7428e5b569b599a63\workspace\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\46bfb4070c3bc5a7428e5b569b599a63\workspace\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\9140b6bd0a0fb1fdc9140929061b6150\workspace\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\9140b6bd0a0fb1fdc9140929061b6150\workspace\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\1b686e693f1cddfb0ac777db32c34a0a\workspace\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\1b686e693f1cddfb0ac777db32c34a0a\workspace\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\83f736f4aa1705a15c6770dc5863c077\workspace\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\user\.gradle\caches\9.2.1\transforms\83f736f4aa1705a15c6770dc5863c077\workspace\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\user\.gradle\caches\9.2.1\transforms\08528f9022330624087eab4d9410f523\workspace\transformed\play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\user\.gradle\caches\9.2.1\transforms\08528f9022330624087eab4d9410f523\workspace\transformed\play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\user\.gradle\caches\9.2.1\transforms\adcbe3600c6a1e982d4d0725c8f80fb8\workspace\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\user\.gradle\caches\9.2.1\transforms\adcbe3600c6a1e982d4d0725c8f80fb8\workspace\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\9.2.1\transforms\9dcded186f1ec0f36255bd209dcf9d25\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\9.2.1\transforms\9dcded186f1ec0f36255bd209dcf9d25\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\9.2.1\transforms\e0436bfe30339e6834209857d058146a\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\9.2.1\transforms\e0436bfe30339e6834209857d058146a\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\user\.gradle\caches\9.2.1\transforms\16435765ad46e1a295b3de5c386df1b4\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\user\.gradle\caches\9.2.1\transforms\16435765ad46e1a295b3de5c386df1b4\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\user\.gradle\caches\9.2.1\transforms\ea4e06102e0ff9a48ba25c00e3dc2d08\workspace\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\user\.gradle\caches\9.2.1\transforms\ea4e06102e0ff9a48ba25c00e3dc2d08\workspace\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\user\.gradle\caches\9.2.1\transforms\55b37125b5536a257e658ced755e1d00\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\user\.gradle\caches\9.2.1\transforms\55b37125b5536a257e658ced755e1d00\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\9.2.1\transforms\4ee476b20c2074830afa7d3a1944a5f7\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\9.2.1\transforms\4ee476b20c2074830afa7d3a1944a5f7\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\cdcbba71bfeb3cab868e75120860ef62\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\9.2.1\transforms\cdcbba71bfeb3cab868e75120860ef62\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\caches\9.2.1\transforms\39712a4ae28cc9f942dd76976c8bc099\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\caches\9.2.1\transforms\39712a4ae28cc9f942dd76976c8bc099\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+>>>>>>> Stashed changes
 	android:extractNativeLibs
 		INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
@@ -179,42 +295,48 @@ ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\ma
 		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:40:63-86
 	android:name
 		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:40:19-62
+activity#com.example.myapplication.customer.CustomerProfileActivity
+ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:41:9-95
+	android:exported
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:41:68-92
+	android:name
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:41:19-67
 activity#com.example.myapplication.renter.RenterLoginActivity
-ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:42:9-87
+ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:43:9-87
 	android:exported
-		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:42:62-85
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:43:62-85
 	android:name
-		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:42:19-61
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:43:19-61
 activity#com.example.myapplication.renter.RenterDashboardActivity
-ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:43:9-91
+ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:44:9-91
 	android:exported
-		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:43:66-89
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:44:66-89
 	android:name
-		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:43:19-65
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:44:19-65
 activity#com.example.myapplication.renter.ManageVehiclesActivity
-ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:44:9-90
-	android:exported
-		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:44:65-88
-	android:name
-		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:44:19-64
-activity#com.example.myapplication.renter.AddEditVehicleActivity
 ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:45:9-90
 	android:exported
 		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:45:65-88
 	android:name
 		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:45:19-64
+activity#com.example.myapplication.renter.AddEditVehicleActivity
+ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:46:9-90
+	android:exported
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:46:65-88
+	android:name
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:46:19-64
 activity#com.example.myapplication.driver.DriverLoginActivity
-ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:47:9-87
+ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:48:9-87
 	android:exported
-		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:47:62-85
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:48:62-85
 	android:name
-		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:47:19-61
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:48:19-61
 activity#com.example.myapplication.driver.DriverDashboardActivity
-ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:48:9-91
+ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:49:9-91
 	android:exported
-		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:48:66-89
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:49:66-89
 	android:name
-		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:48:19-65
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:49:19-65
 uses-sdk
 INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml

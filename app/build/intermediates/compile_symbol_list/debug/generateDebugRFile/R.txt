@@ -40,13 +40,16 @@ int drawable ic_launcher_foreground 0x0
 int id bottomNavAdmin 0x0
 int id bottomNavCustomer 0x0
 int id bottomNavRenter 0x0
+int id btnAccount 0x0
 int id btnAddImage 0x0
 int id btnAddVehicle 0x0
 int id btnAdmin 0x0
 int id btnCancelBooking 0x0
 int id btnCustomer 0x0
+int id btnDeleteAccount 0x0
 int id btnDriver 0x0
 int id btnLogin 0x0
+int id btnLogout 0x0
 int id btnManageBookings 0x0
 int id btnManageBuses 0x0
 int id btnManageCars 0x0
@@ -59,6 +62,7 @@ int id btnMyBookings 0x0
 int id btnRemoveVehicle 0x0
 int id btnRenter 0x0
 int id btnSignIn 0x0
+int id btnUpdateProfile 0x0
 int id btnUpdateVehicle 0x0
 int id btnViewComplaints 0x0
 int id btnViewRenters 0x0
@@ -69,6 +73,7 @@ int id etContact 0x0
 int id etEmail 0x0
 int id etFirstName 0x0
 int id etLastName 0x0
+int id etNIC 0x0
 int id etNicLicense 0x0
 int id etPassword 0x0
 int id etPricePerDay 0x0
@@ -120,6 +125,7 @@ int layout activity_admin_dashboard 0x0
 int layout activity_admin_login 0x0
 int layout activity_customer_dashboard 0x0
 int layout activity_customer_login 0x0
+int layout activity_customer_profile 0x0
 int layout activity_customer_signup 0x0
 int layout activity_driver_dashboard 0x0
 int layout activity_driver_login 0x0
