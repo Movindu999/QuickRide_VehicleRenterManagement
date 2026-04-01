@@ -44,6 +44,7 @@ int id btnAccount 0x0
 int id btnAddImage 0x0
 int id btnAddVehicle 0x0
 int id btnAdmin 0x0
+int id btnBlock 0x0
 int id btnCancelBooking 0x0
 int id btnCustomer 0x0
 int id btnDeleteAccount 0x0
@@ -93,12 +94,18 @@ int id nav_renter_dashboard 0x0
 int id nav_renter_my_vehicles 0x0
 int id recyclerViewBookings 0x0
 int id roleCard 0x0
+int id rvCustomers 0x0
 int id splashCard 0x0
 int id spnVehicleType 0x0
 int id tilPassword 0x0
 int id tilUsername 0x0
 int id toolbar 0x0
 int id topAppBar 0x0
+int id tvCustAddress 0x0
+int id tvCustAge 0x0
+int id tvCustEmail 0x0
+int id tvCustNIC 0x0
+int id tvCustName 0x0
 int id tvNoAccount 0x0
 int id tvSignUpHere 0x0
 int id tvTitle 0x0
@@ -144,6 +151,7 @@ int layout include_bottom_nav_admin 0x0
 int layout include_bottom_nav_customer 0x0
 int layout include_bottom_nav_renter 0x0
 int layout include_top_app_bar 0x0
+int layout item_customer 0x0
 int layout item_driver_booking 0x0
 int menu menu_admin_bottom_nav 0x0
 int menu menu_customer_bottom_nav 0x0

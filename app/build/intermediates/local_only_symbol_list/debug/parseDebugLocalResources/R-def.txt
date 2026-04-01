@@ -46,6 +46,7 @@ id btnAccount
 id btnAddImage
 id btnAddVehicle
 id btnAdmin
+id btnBlock
 id btnCancelBooking
 id btnCustomer
 id btnDeleteAccount
@@ -95,12 +96,18 @@ id nav_renter_dashboard
 id nav_renter_my_vehicles
 id recyclerViewBookings
 id roleCard
+id rvCustomers
 id splashCard
 id spnVehicleType
 id tilPassword
 id tilUsername
 id toolbar
 id topAppBar
+id tvCustAddress
+id tvCustAge
+id tvCustEmail
+id tvCustNIC
+id tvCustName
 id tvNoAccount
 id tvSignUpHere
 id tvTitle
@@ -146,6 +153,7 @@ layout include_bottom_nav_admin
 layout include_bottom_nav_customer
 layout include_bottom_nav_renter
 layout include_top_app_bar
+layout item_customer
 layout item_driver_booking
 menu menu_admin_bottom_nav
 menu menu_customer_bottom_nav
