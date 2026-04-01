@@ -46,11 +46,15 @@ public class CustomerDashboardActivity extends AppCompatActivity {
 
         Button btnViewRenters = findViewById(R.id.btnViewRenters);
         Button btnMyBookings = findViewById(R.id.btnMyBookings);
+        Button btnAccount = findViewById(R.id.btnAccount);
 
         btnViewRenters.setOnClickListener(v ->
                 startActivity(new Intent(this, ViewRentersActivity.class)));
 
         btnMyBookings.setOnClickListener(v ->
                 startActivity(new Intent(this, MyBookingsActivity.class)));
+
+        btnAccount.setOnClickListener(v ->
+                startActivity(new Intent(this, CustomerProfileActivity.class)));
     }
 }
