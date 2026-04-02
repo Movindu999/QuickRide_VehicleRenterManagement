@@ -28,6 +28,10 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\9.2.1\\com.example.myapplication.app-main-42:\\drawable\\bg_screen_surface.xml"
     },
     {
+        "merged": "com.example.myapplication.app-debug-40:/layout_activity_manage_drivers.xml.flat",
+        "source": "com.example.myapplication.app-main-42:/layout/activity_manage_drivers.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\9.2.1\\com.example.myapplication.app-debug-40:\\color_nav_item_color.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\9.2.1\\com.example.myapplication.app-main-42:\\color\\nav_item_color.xml"
     },
@@ -50,10 +54,6 @@
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\9.2.1\\com.example.myapplication.app-debug-40:\\layout_activity_customer_login.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\9.2.1\\com.example.myapplication.app-main-42:\\layout\\activity_customer_login.xml"
-    },
-    {
-        "merged": "com.example.myapplication.app-debug-40:/layout_item_renter.xml.flat",
-        "source": "com.example.myapplication.app-main-42:/layout/item_renter.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\9.2.1\\com.example.myapplication.app-debug-40:\\layout_activity_role_selection.xml.flat",
@@ -208,6 +208,10 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\9.2.1\\com.example.myapplication.app-main-42:\\layout\\include_bottom_nav_renter.xml"
     },
     {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\9.2.1\\com.example.myapplication.app-debug-40:\\layout_item_renter.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\9.2.1\\com.example.myapplication.app-main-42:\\layout\\item_renter.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\9.2.1\\com.example.myapplication.app-debug-40:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\9.2.1\\com.example.myapplication.app-main-42:\\xml\\data_extraction_rules.xml"
     },
@@ -238,6 +242,10 @@
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\9.2.1\\com.example.myapplication.app-debug-40:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\9.2.1\\com.example.myapplication.app-main-42:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-40:/layout_item_driver.xml.flat",
+        "source": "com.example.myapplication.app-main-42:/layout/item_driver.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\9.2.1\\com.example.myapplication.app-debug-40:\\animator_role_button_state_animator.xml.flat",

@@ -41,6 +41,7 @@ int id bottomNavAdmin 0x0
 int id bottomNavCustomer 0x0
 int id bottomNavRenter 0x0
 int id btnAccount 0x0
+int id btnAddDriver 0x0
 int id btnAddImage 0x0
 int id btnAddRenter 0x0
 int id btnAddVehicle 0x0
@@ -49,6 +50,7 @@ int id btnBlock 0x0
 int id btnCancelBooking 0x0
 int id btnCustomer 0x0
 int id btnDeleteAccount 0x0
+int id btnDeleteDriver 0x0
 int id btnDeleteRenter 0x0
 int id btnDriver 0x0
 int id btnLogin 0x0
@@ -57,6 +59,7 @@ int id btnManageBookings 0x0
 int id btnManageBuses 0x0
 int id btnManageCars 0x0
 int id btnManageCustomers 0x0
+int id btnManageDrivers 0x0
 int id btnManageMotorbikes 0x0
 int id btnManageRenters 0x0
 int id btnManageTuktuk 0x0
@@ -73,6 +76,15 @@ int id containerVehicleImages 0x0
 int id etAddress 0x0
 int id etAge 0x0
 int id etContact 0x0
+int id etDriverAge 0x0
+int id etDriverContact 0x0
+int id etDriverEmail 0x0
+int id etDriverFirstName 0x0
+int id etDriverIdNumber 0x0
+int id etDriverLastName 0x0
+int id etDriverLicense 0x0
+int id etDriverPassword 0x0
+int id etDriverRePassword 0x0
 int id etEmail 0x0
 int id etFirstName 0x0
 int id etLastName 0x0
@@ -102,6 +114,7 @@ int id nav_renter_my_vehicles 0x0
 int id recyclerViewBookings 0x0
 int id roleCard 0x0
 int id rvCustomers 0x0
+int id rvDrivers 0x0
 int id rvRenters 0x0
 int id splashCard 0x0
 int id spnVehicleType 0x0
@@ -114,6 +127,10 @@ int id tvCustAge 0x0
 int id tvCustEmail 0x0
 int id tvCustNIC 0x0
 int id tvCustName 0x0
+int id tvDriverContact 0x0
+int id tvDriverDetails 0x0
+int id tvDriverEmail 0x0
+int id tvDriverName 0x0
 int id tvEmail 0x0
 int id tvLocation 0x0
 int id tvNoAccount 0x0
@@ -150,6 +167,7 @@ int layout activity_driver_dashboard 0x0
 int layout activity_driver_login 0x0
 int layout activity_manage_bookings 0x0
 int layout activity_manage_customers 0x0
+int layout activity_manage_drivers 0x0
 int layout activity_manage_renters 0x0
 int layout activity_manage_vehicles 0x0
 int layout activity_my_bookings 0x0
@@ -164,6 +182,7 @@ int layout include_bottom_nav_customer 0x0
 int layout include_bottom_nav_renter 0x0
 int layout include_top_app_bar 0x0
 int layout item_customer 0x0
+int layout item_driver 0x0
 int layout item_driver_booking 0x0
 int layout item_renter 0x0
 int menu menu_admin_bottom_nav 0x0

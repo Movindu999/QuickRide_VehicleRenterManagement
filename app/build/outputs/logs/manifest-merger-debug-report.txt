@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:2:1-53:12
+ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:2:1-54:12
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\user\.gradle\caches\9.2.1\transforms\c8bea00ae1edc35845e89ac7cbc2d2fa\workspace\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\user\.gradle\caches\9.2.1\transforms\8dd34138f0ce7cbb092036347d14dd39\workspace\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\user\.gradle\caches\9.2.1\transforms\90a39697acfedcc21eda0bb0b14dc480\workspace\transformed\constraintlayout-2.1.0\AndroidManifest.xml:2:1-11:12
@@ -77,8 +77,8 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\use
 	xmlns:android
 		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:5:5-51:19
-INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:5:5-51:19
+ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:5:5-52:19
+INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:5:5-52:19
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\user\.gradle\caches\9.2.1\transforms\c8bea00ae1edc35845e89ac7cbc2d2fa\workspace\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\user\.gradle\caches\9.2.1\transforms\c8bea00ae1edc35845e89ac7cbc2d2fa\workspace\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\user\.gradle\caches\9.2.1\transforms\90a39697acfedcc21eda0bb0b14dc480\workspace\transformed\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
@@ -247,30 +247,36 @@ ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\ma
 		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:44:66-89
 	android:name
 		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:44:19-65
-activity#com.example.myapplication.renter.ManageVehiclesActivity
-ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:45:9-90
+activity#com.example.myapplication.renter.ManageDriversActivity
+ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:45:9-89
 	android:exported
-		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:45:65-88
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:45:64-87
 	android:name
-		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:45:19-64
-activity#com.example.myapplication.renter.AddEditVehicleActivity
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:45:19-63
+activity#com.example.myapplication.renter.ManageVehiclesActivity
 ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:46:9-90
 	android:exported
 		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:46:65-88
 	android:name
 		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:46:19-64
+activity#com.example.myapplication.renter.AddEditVehicleActivity
+ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:47:9-90
+	android:exported
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:47:65-88
+	android:name
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:47:19-64
 activity#com.example.myapplication.driver.DriverLoginActivity
-ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:48:9-87
+ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:49:9-87
 	android:exported
-		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:48:62-85
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:49:62-85
 	android:name
-		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:48:19-61
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:49:19-61
 activity#com.example.myapplication.driver.DriverDashboardActivity
-ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:49:9-91
+ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:50:9-91
 	android:exported
-		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:49:66-89
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:50:66-89
 	android:name
-		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:49:19-65
+		ADDED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml:50:19-65
 uses-sdk
 INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\NIBM\HD\CW\8 - Mobile\QuickRide_VehicleRenterManagement\app\src\main\AndroidManifest.xml

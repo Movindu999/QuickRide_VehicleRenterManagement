@@ -42,6 +42,7 @@ id bottomNavAdmin
 id bottomNavCustomer
 id bottomNavRenter
 id btnAccount
+id btnAddDriver
 id btnAddImage
 id btnAddRenter
 id btnAddVehicle
@@ -50,6 +51,7 @@ id btnBlock
 id btnCancelBooking
 id btnCustomer
 id btnDeleteAccount
+id btnDeleteDriver
 id btnDeleteRenter
 id btnDriver
 id btnLogin
@@ -58,6 +60,7 @@ id btnManageBookings
 id btnManageBuses
 id btnManageCars
 id btnManageCustomers
+id btnManageDrivers
 id btnManageMotorbikes
 id btnManageRenters
 id btnManageTuktuk
@@ -74,6 +77,15 @@ id containerVehicleImages
 id etAddress
 id etAge
 id etContact
+id etDriverAge
+id etDriverContact
+id etDriverEmail
+id etDriverFirstName
+id etDriverIdNumber
+id etDriverLastName
+id etDriverLicense
+id etDriverPassword
+id etDriverRePassword
 id etEmail
 id etFirstName
 id etLastName
@@ -103,6 +115,7 @@ id nav_renter_my_vehicles
 id recyclerViewBookings
 id roleCard
 id rvCustomers
+id rvDrivers
 id rvRenters
 id splashCard
 id spnVehicleType
@@ -115,6 +128,10 @@ id tvCustAge
 id tvCustEmail
 id tvCustNIC
 id tvCustName
+id tvDriverContact
+id tvDriverDetails
+id tvDriverEmail
+id tvDriverName
 id tvEmail
 id tvLocation
 id tvNoAccount
@@ -151,6 +168,7 @@ layout activity_driver_dashboard
 layout activity_driver_login
 layout activity_manage_bookings
 layout activity_manage_customers
+layout activity_manage_drivers
 layout activity_manage_renters
 layout activity_manage_vehicles
 layout activity_my_bookings
@@ -165,6 +183,7 @@ layout include_bottom_nav_customer
 layout include_bottom_nav_renter
 layout include_top_app_bar
 layout item_customer
+layout item_driver
 layout item_driver_booking
 layout item_renter
 menu menu_admin_bottom_nav

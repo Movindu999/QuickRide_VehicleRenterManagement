@@ -86,6 +86,9 @@
             android:name="com.example.myapplication.renter.RenterDashboardActivity"
             android:exported="true" />
         <activity
+            android:name="com.example.myapplication.renter.ManageDriversActivity"
+            android:exported="true" />
+        <activity
             android:name="com.example.myapplication.renter.ManageVehiclesActivity"
             android:exported="true" />
         <activity

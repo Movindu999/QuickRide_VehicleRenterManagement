@@ -39,6 +39,53 @@
                 android:layout_marginTop="6dp"
                 android:text="@string/welcome_renter" />
 
+            <!-- Drivers Management Card (Aluthin add karapu eka) -->
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.QuickRide.Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:cardBackgroundColor="#E3F2FD"> <!-- Podi wenasak penna lassanata paatak damma -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Drivers"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#0D47A1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="Register and manage your drivers"
+                            android:textSize="13sp"
+                            android:textColor="@android:color/darker_gray" />
+                    </LinearLayout>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnManageDrivers"
+                        style="@style/Widget.QuickRide.Button.Secondary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/btn_manage" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
             <!-- Vehicle Type Cards -->
             <com.google.android.material.card.MaterialCardView
                 style="@style/Widget.QuickRide.Card"
@@ -273,4 +320,3 @@
     <include layout="@layout/include_bottom_nav_renter" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
-

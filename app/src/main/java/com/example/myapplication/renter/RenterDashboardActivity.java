@@ -42,17 +42,24 @@ public class RenterDashboardActivity extends AppCompatActivity {
             return false;
         });
 
+        Button btnManageDrivers = findViewById(R.id.btnManageDrivers);
         Button btnManageCars = findViewById(R.id.btnManageCars);
         Button btnManageVans = findViewById(R.id.btnManageVans);
         Button btnManageMotorbikes = findViewById(R.id.btnManageMotorbikes);
         Button btnManageBuses = findViewById(R.id.btnManageBuses);
         Button btnManageTuktuk = findViewById(R.id.btnManageTuktuk);
 
+        btnManageDrivers.setOnClickListener(v -> navigateToManageDrivers());
         btnManageCars.setOnClickListener(v -> navigateToManageVehicles("Car"));
         btnManageVans.setOnClickListener(v -> navigateToManageVehicles("Van"));
         btnManageMotorbikes.setOnClickListener(v -> navigateToManageVehicles("Motorbike"));
         btnManageBuses.setOnClickListener(v -> navigateToManageVehicles("Bus"));
         btnManageTuktuk.setOnClickListener(v -> navigateToManageVehicles("Tuktuk"));
+    }
+
+    private void navigateToManageDrivers() {
+        Intent intent = new Intent(this, ManageDriversActivity.class);
+        startActivity(intent);
     }
 
     private void navigateToManageVehicles(String vehicleType) {
@@ -61,4 +68,3 @@ public class RenterDashboardActivity extends AppCompatActivity {
         startActivity(intent);
     }
 }
-
