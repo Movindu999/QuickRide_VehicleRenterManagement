@@ -38,6 +38,7 @@
 
         <activity android:name=".renter.RenterLoginActivity" android:exported="true"/>
         <activity android:name=".renter.RenterDashboardActivity" android:exported="true"/>
+        <activity android:name=".renter.ManageDriversActivity" android:exported="true"/>
         <activity android:name=".renter.ManageVehiclesActivity" android:exported="true"/>
         <activity android:name=".renter.AddEditVehicleActivity" android:exported="true"/>
 
