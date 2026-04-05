@@ -63,6 +63,7 @@ public class AddEditVehicleActivity extends AppCompatActivity {
     private Button btnAddVehicle;
     private Button btnUpdateVehicle;
     private Button btnRemoveVehicle;
+    private EditText etManufactureYear;
 
     private FirebaseAuth mAuth;
     private FirebaseFirestore db;
@@ -103,12 +104,13 @@ public class AddEditVehicleActivity extends AppCompatActivity {
         etVehicleNumber = findViewById(R.id.etVehicleNumber);
         spnVehicleType = findViewById(R.id.spnVehicleType);
         etPricePerDay = findViewById(R.id.etPricePerDay);
-        etDriverFeePerDay = findRuntimeEditText("etDriverFeePerDay");
+        etDriverFeePerDay = findViewById(R.id.etDriverFeePerDay);
         containerVehicleImages = findViewById(R.id.containerVehicleImages);
         btnAddVehicle = findViewById(R.id.btnAddVehicle);
         btnUpdateVehicle = findViewById(R.id.btnUpdateVehicle);
         btnRemoveVehicle = findViewById(R.id.btnRemoveVehicle);
         btnAddImage = findViewById(R.id.btnAddImage);
+        etManufactureYear = findViewById(R.id.etManufactureYear);
 
         setupVehicleTypeSpinner();
         renderImagePreview();
@@ -156,9 +158,17 @@ public class AddEditVehicleActivity extends AppCompatActivity {
         String vehicleTypeSelected = safeText(spnVehicleType);
         String pricePerDayText = safeText(etPricePerDay);
         String driverFeePerDayText = safeText(etDriverFeePerDay);
+        String manufactureYearText = safeText(etManufactureYear);
 
-        if (vehicleNumber.isEmpty() || vehicleTypeSelected.isEmpty() || pricePerDayText.isEmpty() || driverFeePerDayText.isEmpty()) {
+        // මෙතැනදී manufactureYearText.isEmpty() එකත් පරීක්ෂා කරන්න ඕනේ
+        if (vehicleNumber.isEmpty() || vehicleTypeSelected.isEmpty() ||
+                pricePerDayText.isEmpty() || driverFeePerDayText.isEmpty() || manufactureYearText.isEmpty()) {
             Toast.makeText(this, "Please fill all fields", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (manufactureYearText.length() != 4) {
+            etManufactureYear.setError("Enter a valid year (e.g. 2022)");
             return;
         }
 
@@ -173,7 +183,6 @@ public class AddEditVehicleActivity extends AppCompatActivity {
         }
 
         setLoadingState(true);
-
         String renterId = mAuth.getCurrentUser().getUid();
         DocumentReference docRef;
 
@@ -192,7 +201,17 @@ public class AddEditVehicleActivity extends AppCompatActivity {
         if (selectedImageUri != null) {
             uploadImageToCloudinary(selectedImageUri, url -> {
                 existingImageUrl = url;
-                writeVehicleDocument(docRef, renterId, vehicleNumber, vehicleTypeSelected, pricePerDay, driverFeePerDay, isUpdate);
+
+                writeVehicleDocument(
+                        docRef,
+                        renterId,
+                        vehicleNumber,
+                        vehicleTypeSelected,
+                        manufactureYearText,
+                        pricePerDay,
+                        driverFeePerDay,
+                        isUpdate
+                );
             }, errorMessage -> {
                 setLoadingState(false);
                 Toast.makeText(this, errorMessage, Toast.LENGTH_LONG).show();
@@ -200,7 +219,16 @@ public class AddEditVehicleActivity extends AppCompatActivity {
             return;
         }
 
-        writeVehicleDocument(docRef, renterId, vehicleNumber, vehicleTypeSelected, pricePerDay, driverFeePerDay, isUpdate);
+        writeVehicleDocument(
+                docRef,
+                renterId,
+                vehicleNumber,
+                vehicleTypeSelected,
+                manufactureYearText,
+                pricePerDay,
+                driverFeePerDay,
+                isUpdate
+        );
     }
 
     private interface UrlCallback {
@@ -328,6 +356,7 @@ public class AddEditVehicleActivity extends AppCompatActivity {
             String renterId,
             String vehicleNumber,
             String vehicleTypeSelected,
+            String manufactureYearText,
             double pricePerDay,
             double driverFeePerDay,
             boolean isUpdate
@@ -339,6 +368,7 @@ public class AddEditVehicleActivity extends AppCompatActivity {
         vehicleData.put("pricePerDay", pricePerDay);
         vehicleData.put("driverFeePerDay", driverFeePerDay);
         vehicleData.put("updatedAt", Timestamp.now());
+        vehicleData.put("manufactureYear", manufactureYearText);
 
         if (!TextUtils.isEmpty(existingImageUrl)) {
             vehicleData.put("imageUrl", existingImageUrl);
@@ -400,7 +430,10 @@ public class AddEditVehicleActivity extends AppCompatActivity {
                 etPricePerDay.setText(String.valueOf(price));
             }
         }
-
+        String manufactureYear = documentSnapshot.getString("manufactureYear");
+        if (!TextUtils.isEmpty(manufactureYear)) {
+            etManufactureYear.setText(manufactureYear);
+        }
         Double driverFee = documentSnapshot.getDouble("driverFeePerDay");
         if (driverFee != null) {
             if (driverFee == Math.floor(driverFee)) {
@@ -540,6 +573,9 @@ public class AddEditVehicleActivity extends AppCompatActivity {
         if (etDriverFeePerDay != null) {
             etDriverFeePerDay.setEnabled(!isLoading);
         }
+        if (etManufactureYear != null) {
+            etManufactureYear.setEnabled(!isLoading);
+        }
     }
 
     private String safeText(EditText editText) {
@@ -565,10 +601,5 @@ public class AddEditVehicleActivity extends AppCompatActivity {
                 dp,
                 getResources().getDisplayMetrics()
         ));
-    }
-
-    private EditText findRuntimeEditText(String idName) {
-        int id = getResources().getIdentifier(idName, "id", getPackageName());
-        return id != 0 ? findViewById(id) : null;
     }
 }
