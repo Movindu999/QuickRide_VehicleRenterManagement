@@ -1,6 +1,7 @@
 package com.example.myapplication.renter;
 
 import android.app.AlertDialog;
+import android.app.DatePickerDialog;
 import android.os.Bundle;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,14 +16,17 @@ import com.google.firebase.FirebaseOptions;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
+
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class ManageDriversActivity extends AppCompatActivity {
 
-    private TextInputEditText etFirstName, etLastName, etAge, etEmail, etContact, etLicense, etIdNumber, etPassword, etRePassword;
+    // අලුතින් etLicenseExpiry මෙතැනට එකතු කර ඇත
+    private TextInputEditText etFirstName, etLastName, etAge, etEmail, etContact, etLicense, etLicenseExpiry, etIdNumber, etPassword, etRePassword;
     private MaterialButton btnAddDriver;
     private RecyclerView rvDrivers;
     private MaterialToolbar topAppBar;
@@ -58,6 +62,10 @@ public class ManageDriversActivity extends AppCompatActivity {
         etEmail = findViewById(R.id.etDriverEmail);
         etContact = findViewById(R.id.etDriverContact);
         etLicense = findViewById(R.id.etDriverLicense);
+
+
+        etLicenseExpiry = findViewById(R.id.etDriverLicenseExpiry);
+
         etIdNumber = findViewById(R.id.etDriverIdNumber);
         etPassword = findViewById(R.id.etDriverPassword);
         etRePassword = findViewById(R.id.etDriverRePassword);
@@ -75,9 +83,37 @@ public class ManageDriversActivity extends AppCompatActivity {
         rvDrivers.setLayoutManager(new LinearLayoutManager(this));
         driverList = new ArrayList<>();
 
+
+        setupDatePicker();
+
         btnAddDriver.setOnClickListener(v -> addDriver());
 
         loadDrivers();
+    }
+
+    private void setupDatePicker() {
+        etLicenseExpiry.setOnClickListener(v -> {
+            final Calendar calendar = Calendar.getInstance();
+            int year = calendar.get(Calendar.YEAR);
+            int month = calendar.get(Calendar.MONTH);
+            int day = calendar.get(Calendar.DAY_OF_MONTH);
+
+            DatePickerDialog datePickerDialog = new DatePickerDialog(
+                    ManageDriversActivity.this,
+                    (view, selectedYear, selectedMonth, selectedDay) -> {
+
+                        String selectedDate = selectedDay + "/" + (selectedMonth + 1) + "/" + selectedYear;
+                        etLicenseExpiry.setText(selectedDate);
+                        etLicenseExpiry.setError(null);
+                    },
+                    year, month, day
+            );
+
+            calendar.add(Calendar.DAY_OF_MONTH, 1);
+            datePickerDialog.getDatePicker().setMinDate(calendar.getTimeInMillis());
+
+            datePickerDialog.show();
+        });
     }
 
     private void addDriver() {
@@ -87,11 +123,18 @@ public class ManageDriversActivity extends AppCompatActivity {
         String email = etEmail.getText() != null ? etEmail.getText().toString().trim() : "";
         String contact = etContact.getText() != null ? etContact.getText().toString().trim() : "";
         String license = etLicense.getText() != null ? etLicense.getText().toString().trim() : "";
+
+        // License expire Date
+        String licenseExpiry = etLicenseExpiry.getText() != null ? etLicenseExpiry.getText().toString().trim() : "";
+
         String idNumber = etIdNumber.getText() != null ? etIdNumber.getText().toString().trim() : "";
         String password = etPassword.getText() != null ? etPassword.getText().toString().trim() : "";
         String rePassword = etRePassword.getText() != null ? etRePassword.getText().toString().trim() : "";
 
-        if (firstName.isEmpty() || lastName.isEmpty() || age.isEmpty() || email.isEmpty() || contact.isEmpty() || license.isEmpty() || idNumber.isEmpty() || password.isEmpty() || rePassword.isEmpty()) {
+
+        if (firstName.isEmpty() || lastName.isEmpty() || age.isEmpty() || email.isEmpty() ||
+                contact.isEmpty() || license.isEmpty() || licenseExpiry.isEmpty() ||
+                idNumber.isEmpty() || password.isEmpty() || rePassword.isEmpty()) {
             Toast.makeText(this, "Please fill all fields", Toast.LENGTH_SHORT).show();
             return;
         }
@@ -110,13 +153,17 @@ public class ManageDriversActivity extends AppCompatActivity {
                         String driverUid = task.getResult().getUser().getUid();
 
                         Map<String, Object> driverData = new HashMap<>();
-                        driverData.put("renterId", renterId);
+                        driverData.put("renterId", renterId); 
                         driverData.put("firstName", firstName);
                         driverData.put("lastName", lastName);
                         driverData.put("age", age);
                         driverData.put("email", email);
                         driverData.put("contactNumber", contact);
                         driverData.put("licenseNumber", license);
+
+
+                        driverData.put("licenseExpiryDate", licenseExpiry);
+
                         driverData.put("idNumber", idNumber);
                         driverData.put("role", "driver");
 
@@ -173,6 +220,10 @@ public class ManageDriversActivity extends AppCompatActivity {
         etEmail.setText("");
         etContact.setText("");
         etLicense.setText("");
+
+
+        etLicenseExpiry.setText("");
+
         etIdNumber.setText("");
         etPassword.setText("");
         etRePassword.setText("");
