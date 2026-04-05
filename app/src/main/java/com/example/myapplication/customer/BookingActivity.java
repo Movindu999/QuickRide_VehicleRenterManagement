@@ -9,6 +9,7 @@ import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -57,6 +58,7 @@ public class BookingActivity extends AppCompatActivity {
     private TextView tvBookingTotalDays;
     private TextView tvBookingTotalPrice;
     private Spinner spinnerDrivers;
+    private RadioGroup rgPaymentMethod;  ///
     private Button btnSelectDateRange;
     private Button btnConfirmBooking;
     private Button btnCancelBooking;
@@ -116,6 +118,7 @@ public class BookingActivity extends AppCompatActivity {
         tvBookingTotalDays = findViewById(R.id.tvBookingTotalDays);
         tvBookingTotalPrice = findViewById(R.id.tvBookingTotalPrice);
         spinnerDrivers = findViewById(R.id.spinnerDrivers);
+        rgPaymentMethod = findViewById(R.id.rgPaymentMethod); ////
         btnSelectDateRange = findRuntimeButton("btnSelectDateRange");
         btnConfirmBooking = findViewById(R.id.btnConfirmBooking);
         btnCancelBooking = findViewById(R.id.btnCancelBooking);
@@ -345,12 +348,18 @@ public class BookingActivity extends AppCompatActivity {
                         loadBookedDateRanges();
                         return;
                     }
+/// /
+                    String paymentMethod = "Cash";
+                    if (rgPaymentMethod != null && rgPaymentMethod.getCheckedRadioButtonId() == R.id.rbCard) {
+                        paymentMethod = "Card";
+                    }
 
                     Map<String, Object> booking = new HashMap<>();
                     booking.put("customerId", customerId);
                     booking.put("renterId", renterId);
                     booking.put("vehicleId", vehicleId);
                     booking.put("driverId", selfDriveSelected ? null : selectedDriverId);
+                    booking.put("paymentMethod", paymentMethod);
                     booking.put("startDate", startDate);
                     booking.put("endDate", endDate);
                     booking.put("startDateMillis", selectedStartDateMillis);
