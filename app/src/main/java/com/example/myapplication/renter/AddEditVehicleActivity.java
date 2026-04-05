@@ -160,7 +160,6 @@ public class AddEditVehicleActivity extends AppCompatActivity {
         String driverFeePerDayText = safeText(etDriverFeePerDay);
         String manufactureYearText = safeText(etManufactureYear);
 
-        // මෙතැනදී manufactureYearText.isEmpty() එකත් පරීක්ෂා කරන්න ඕනේ
         if (vehicleNumber.isEmpty() || vehicleTypeSelected.isEmpty() ||
                 pricePerDayText.isEmpty() || driverFeePerDayText.isEmpty() || manufactureYearText.isEmpty()) {
             Toast.makeText(this, "Please fill all fields", Toast.LENGTH_SHORT).show();
