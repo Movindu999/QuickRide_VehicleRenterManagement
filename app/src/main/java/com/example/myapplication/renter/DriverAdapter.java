@@ -12,9 +12,8 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import java.util.List;
 
 public class DriverAdapter extends RecyclerView.Adapter<DriverAdapter.DriverViewHolder> {
-
-    private List<DocumentSnapshot> driverList;
-    private OnDriverDeleteListener deleteListener;
+    private final List<DocumentSnapshot> driverList;
+    private final OnDriverDeleteListener deleteListener;
 
     public interface OnDriverDeleteListener {
         void onDeleteClick(DocumentSnapshot documentSnapshot);
@@ -36,16 +35,29 @@ public class DriverAdapter extends RecyclerView.Adapter<DriverAdapter.DriverView
     public void onBindViewHolder(@NonNull DriverViewHolder holder, int position) {
         DocumentSnapshot doc = driverList.get(position);
 
-        String firstName = doc.getString("firstName");
-        String lastName = doc.getString("lastName");
-        String fullName = firstName + " " + lastName;
+        String firstName = safe(doc.getString("firstName"));
+        String lastName = safe(doc.getString("lastName"));
+        String fullName = (firstName + " " + lastName).trim();
 
-        holder.tvName.setText(fullName);
-        holder.tvEmail.setText("Email: " + doc.getString("email"));
-        holder.tvContact.setText("Contact: " + doc.getString("contactNumber"));
+        holder.tvName.setText(fullName.isEmpty()
+                ? holder.itemView.getContext().getString(R.string.driver_default_name)
+                : fullName);
 
-        String details = "ID: " + doc.getString("idNumber") + " | License: " + doc.getString("licenseNumber") + " | Age: " + doc.getString("age");
-        holder.tvDetails.setText(details);
+        holder.tvEmail.setText(holder.itemView.getContext().getString(
+                R.string.driver_email_format,
+                safe(doc.getString("email"))
+        ));
+        holder.tvContact.setText(holder.itemView.getContext().getString(
+                R.string.driver_contact_format,
+                safe(doc.getString("contactNumber"))
+        ));
+
+        holder.tvDetails.setText(holder.itemView.getContext().getString(
+                R.string.driver_details_format,
+                safe(doc.getString("idNumber")),
+                safe(doc.getString("licenseNumber")),
+                safe(doc.getString("age"))
+        ));
 
         holder.btnDelete.setOnClickListener(v -> deleteListener.onDeleteClick(doc));
     }
@@ -53,6 +65,10 @@ public class DriverAdapter extends RecyclerView.Adapter<DriverAdapter.DriverView
     @Override
     public int getItemCount() {
         return driverList.size();
+    }
+
+    private String safe(String value) {
+        return value == null || value.trim().isEmpty() ? "-" : value.trim();
     }
 
     public static class DriverViewHolder extends RecyclerView.ViewHolder {

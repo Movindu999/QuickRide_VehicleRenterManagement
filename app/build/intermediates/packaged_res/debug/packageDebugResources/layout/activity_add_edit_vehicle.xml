@@ -62,12 +62,15 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="16dp"
                         android:hint="@string/hint_vehicle_type"
+                        android:labelFor="@id/spnVehicleType"
                         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
 
                         <AutoCompleteTextView
                             android:id="@+id/spnVehicleType"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:hint="@string/hint_vehicle_type"
+                            android:contentDescription="@string/hint_vehicle_type"
                             android:inputType="none" />
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -81,6 +84,21 @@
 
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/etPricePerDay"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="numberDecimal" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- Driver Fee Per Day -->
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:hint="@string/hint_driver_fee_per_day"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/etDriverFeePerDay"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:inputType="numberDecimal" />
@@ -152,7 +170,7 @@
                                     android:layout_height="40dp"
                                     android:src="@android:drawable/ic_menu_gallery"
                                     android:contentDescription="@string/btn_add_image"
-                                    android:tint="@android:color/white" />
+                                    app:tint="@android:color/white" />
 
                                 <TextView
                                     android:layout_width="wrap_content"

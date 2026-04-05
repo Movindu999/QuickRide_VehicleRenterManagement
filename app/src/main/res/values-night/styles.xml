@@ -60,4 +60,15 @@
         <item name="android:minHeight">56dp</item>
     </style>
 
+    <style name="Widget.QuickRide.AuthInput" parent="">
+        <item name="android:textColor">@color/text_primary_dark</item>
+        <item name="android:textColorHint">@color/text_secondary_dark</item>
+    </style>
+
+    <style name="Widget.QuickRide.AuthTextField" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/border_dark</item>
+        <item name="hintTextColor">@color/text_secondary_dark</item>
+        <item name="android:textColorHint">@color/text_secondary_dark</item>
+    </style>
+
 </resources>

@@ -54,11 +54,13 @@ public class CustomerAdapter extends RecyclerView.Adapter<CustomerAdapter.ViewHo
         holder.tvAddress.setText("Address: " + address);
 
         // Update Button UI based on status
-        if ("blocked".equals(status)) {
-            holder.btnBlock.setText("Unblock");
+        boolean isSuspended = "suspended".equalsIgnoreCase(status)
+                || "blocked".equalsIgnoreCase(status);
+        if (isSuspended) {
+            holder.btnBlock.setText("Unsuspend");
             holder.btnBlock.setBackgroundColor(Color.parseColor("#4CAF50")); // Green
         } else {
-            holder.btnBlock.setText("Block");
+            holder.btnBlock.setText("Suspend");
             holder.btnBlock.setBackgroundColor(Color.parseColor("#F44336")); // Red
         }
 

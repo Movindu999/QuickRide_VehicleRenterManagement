@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Customer Sign Up"
+            android:text="@string/customer_signup_title"
             android:textSize="28sp"
             android:textStyle="bold"
             android:textColor="#1E3A8A"
@@ -23,66 +23,84 @@
 
         <EditText
             android:id="@+id/etFirstName"
+            style="@style/Widget.QuickRide.AuthInput"
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:hint="First Name"
+            android:hint="@string/hint_first_name"
+            android:inputType="textPersonName"
+            android:autofillHints="givenName"
             android:background="@drawable/edittext_bg"
             android:padding="14dp"
             android:layout_marginBottom="16dp"/>
 
         <EditText
             android:id="@+id/etLastName"
+            style="@style/Widget.QuickRide.AuthInput"
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:hint="Last Name"
+            android:hint="@string/hint_last_name"
+            android:inputType="textPersonName"
+            android:autofillHints="familyName"
             android:background="@drawable/edittext_bg"
             android:padding="14dp"
             android:layout_marginBottom="16dp"/>
 
         <EditText
             android:id="@+id/etAge"
+            style="@style/Widget.QuickRide.AuthInput"
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:hint="Age"
+            android:hint="@string/hint_age"
             android:inputType="number"
+            android:autofillHints="none"
             android:background="@drawable/edittext_bg"
             android:padding="14dp"
             android:layout_marginBottom="16dp"/>
 
         <EditText
             android:id="@+id/etNicLicense"
+            style="@style/Widget.QuickRide.AuthInput"
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:hint="NIC or Driving License"
+            android:hint="@string/hint_nic_or_license"
+            android:inputType="text"
+            android:autofillHints="none"
             android:background="@drawable/edittext_bg"
             android:padding="14dp"
             android:layout_marginBottom="16dp"/>
 
         <EditText
             android:id="@+id/etContact"
+            style="@style/Widget.QuickRide.AuthInput"
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:hint="Contact Number"
+            android:hint="@string/hint_contact_number"
             android:inputType="phone"
+            android:autofillHints="phone"
             android:background="@drawable/edittext_bg"
             android:padding="14dp"
             android:layout_marginBottom="16dp"/>
 
         <EditText
             android:id="@+id/etEmail"
+            style="@style/Widget.QuickRide.AuthInput"
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:hint="Email Address"
+            android:hint="@string/hint_email_address"
             android:inputType="textEmailAddress"
+            android:autofillHints="emailAddress"
             android:background="@drawable/edittext_bg"
             android:padding="14dp"
             android:layout_marginBottom="16dp"/>
 
         <EditText
             android:id="@+id/etAddress"
+            style="@style/Widget.QuickRide.AuthInput"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:hint="Address"
+            android:hint="@string/hint_address"
+            android:inputType="textPostalAddress"
+            android:autofillHints="postalAddress"
             android:background="@drawable/edittext_bg"
             android:padding="14dp"
             android:layout_marginBottom="16dp"
@@ -90,10 +108,24 @@
 
         <EditText
             android:id="@+id/etPassword"
+            style="@style/Widget.QuickRide.AuthInput"
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:hint="Password"
+            android:hint="@string/hint_password"
             android:inputType="textPassword"
+            android:autofillHints="password"
+            android:background="@drawable/edittext_bg"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            style="@style/Widget.QuickRide.AuthInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="@string/hint_confirm_password"
+            android:inputType="textPassword"
+            android:autofillHints="password"
             android:background="@drawable/edittext_bg"
             android:padding="14dp"
             android:layout_marginBottom="24dp"/>
@@ -102,7 +134,7 @@
             android:id="@+id/btnSignIn"
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:text="Sign In"
+            android:text="@string/signup_button_text"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold"

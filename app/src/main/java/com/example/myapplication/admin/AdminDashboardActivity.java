@@ -31,9 +31,9 @@ public class AdminDashboardActivity extends AppCompatActivity {
                 startActivity(new Intent(this, ManageCustomersActivity.class)));
 
         btnManageBookings.setOnClickListener(v ->
-                startActivity(new Intent(this, ManageBookingsActivity.class)));
+                startActivity(new Intent(this, AdminManageBookingsActivity.class)));
 
         btnViewComplaints.setOnClickListener(v ->
-                startActivity(new Intent(this, ViewComplaintsActivity.class)));
+                startActivity(new Intent(this, AdminComplaintsActivity.class)));
     }
 }

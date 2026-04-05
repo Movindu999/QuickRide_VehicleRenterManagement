@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -30,6 +32,8 @@
         <activity android:name=".admin.AdminDashboardActivity" android:exported="true"/>
         <activity android:name=".admin.ManageRentersActivity" android:exported="true"/>
         <activity android:name=".admin.ManageCustomersActivity" android:exported="true"/>
+        <activity android:name=".admin.AdminManageBookingsActivity" android:exported="true"/>
+        <activity android:name=".admin.AdminComplaintsActivity" android:exported="true"/>
         <activity android:name=".admin.ManageBookingsActivity" android:exported="true"/>
         <activity android:name=".admin.ViewComplaintsActivity" android:exported="true"/>
 
@@ -37,17 +41,24 @@
         <activity android:name=".customer.CustomerSignupActivity" android:exported="false"/>
         <activity android:name=".customer.CustomerDashboardActivity" android:exported="true"/>
         <activity android:name=".customer.ViewRentersActivity" android:exported="true"/>
+        <activity android:name=".customer.RenterVehiclesActivity" android:exported="false"/>
+        <activity android:name=".customer.RenterReviewsActivity" android:exported="false"/>
+        <activity android:name=".customer.BookingActivity" android:exported="false"/>
         <activity android:name=".customer.MyBookingsActivity" android:exported="true"/>
         <activity android:name=".customer.CustomerProfileActivity" android:exported="false" />
 
         <activity android:name=".renter.RenterLoginActivity" android:exported="true"/>
         <activity android:name=".renter.RenterDashboardActivity" android:exported="true"/>
+        <activity android:name=".renter.RenterFeedbackActivity" android:exported="false"/>
         <activity android:name=".renter.ManageDriversActivity" android:exported="true"/>
         <activity android:name=".renter.ManageVehiclesActivity" android:exported="true"/>
         <activity android:name=".renter.AddEditVehicleActivity" android:exported="true"/>
+        <activity android:name=".renter.RenterBookingsActivity" android:exported="false"/>
+        <activity android:name=".renter.DriverProfileActivity" android:exported="false"/>
 
         <activity android:name=".driver.DriverLoginActivity" android:exported="true"/>
         <activity android:name=".driver.DriverDashboardActivity" android:exported="true"/>
+        <activity android:name=".driver.DriverBookingDetailActivity" android:exported="false"/>
 
     </application>
 

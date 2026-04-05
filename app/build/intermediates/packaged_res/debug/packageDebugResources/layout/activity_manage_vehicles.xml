@@ -36,6 +36,7 @@
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/emptyStateCard"
                 style="@style/Widget.QuickRide.Card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">

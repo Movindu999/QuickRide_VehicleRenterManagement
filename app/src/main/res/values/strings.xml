@@ -47,10 +47,11 @@
     <string name="hint_vehicle_number">Vehicle Number</string>
     <string name="hint_vehicle_type">Vehicle Type</string>
     <string name="hint_price_per_day">Price Per Day</string>
+    <string name="hint_driver_fee_per_day">Driver Fee Per Day</string>
     <string name="vehicle_images">Vehicle Images</string>
     <string name="btn_add_image">Add Image</string>
     <string name="tap_to_add_image">Tap to add image</string>
-    <string name="vehicle_images_note">You can add up to 5 images</string>
+    <string name="vehicle_images_note">Add one main image for the vehicle</string>
     <string name="btn_add_vehicle">Add Vehicle</string>
     <string name="btn_update_vehicle">Update Vehicle</string>
     <string name="btn_remove_vehicle">Remove Vehicle</string>
@@ -92,4 +93,96 @@
     <string name="label_start_date">Start Date:</string>
     <string name="label_end_date">End Date:</string>
     <string name="btn_cancel_booking">Cancel Booking</string>
+
+    <!-- Customer Booking Flow -->
+    <string name="screen_renter_vehicles">Renter Vehicles</string>
+    <string name="screen_booking">Booking</string>
+    <string name="view_renters_subtitle">Browse renter profiles and choose a vehicle provider.</string>
+    <string name="my_bookings_subtitle">Track your submitted bookings and statuses.</string>
+    <string name="no_renters_message">No renters found right now.</string>
+    <string name="no_customer_bookings_message">You have no bookings yet.</string>
+    <string name="filter_vehicle_type">Filter by vehicle type</string>
+    <string name="label_owner_name">Owner: %1$s</string>
+    <string name="label_location">Location: %1$s</string>
+    <string name="label_vehicle_title">%1$s - %2$s</string>
+    <string name="label_price_per_day_format">Price per day: %1$.2f</string>
+    <string name="booking_vehicle_title_default">Vehicle</string>
+    <string name="booking_vehicle_price_default">Price per day</string>
+    <string name="booking_total_days_zero">Total days: 0</string>
+    <string name="booking_total_price_zero">Total price: 0.00</string>
+    <string name="booking_dates_title">Select booking dates</string>
+    <string name="select_start_date">Select Start Date</string>
+    <string name="select_end_date">Select End Date</string>
+    <string name="label_not_selected">Not selected</string>
+    <string name="label_total_days_format">Total days: %1$d</string>
+    <string name="label_total_price_format">Total price: %1$.2f</string>
+    <string name="select_driver_title">Select driver</string>
+    <string name="option_self_drive">Self Drive / None</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="label_booking_dates">Dates: %1$s to %2$s</string>
+    <string name="label_booking_status">Status: %1$s</string>
+    <string name="label_vehicle_image">Vehicle image</string>
+    <string name="label_vehicle_title_text">Vehicle</string>
+    <string name="label_price_per_day_text">Price per day</string>
+    <string name="label_select_booking_dates">Select booking dates</string>
+    <string name="select_date_range">Select Date Range</string>
+    <string name="label_no_dates_selected">No dates selected</string>
+    <string name="label_total_days_text">Total days</string>
+    <string name="label_total_price_text">Total price</string>
+    <string name="label_select_driver">Select driver</string>
+    <string name="view_selected_driver">View Selected Driver</string>
+    <string name="confirm_booking_text">Confirm Booking</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="loading_booked_dates">Loading booked dates…</string>
+    <string name="loading_booked_dates_failed">Unable to load booked dates. You can still try booking, but overlap will be rechecked on save.</string>
+    <string name="selected_dates_overlap">Selected dates overlap with an existing booking</string>
+    <string name="date_range_already_booked">That date range is already booked. Please choose another range.</string>
+    <string name="please_wait_booked_dates">Please wait while booked dates load</string>
+
+    <!-- Booking Defaults -->
+    <string name="booking_total_days_zero_display">Total days: 0</string>
+    <string name="booking_total_price_zero_display">Total price: 0.00</string>
+
+    <!-- Password Confirmation -->
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="error_confirm_password_required">Please confirm your password.</string>
+    <string name="error_password_mismatch">Passwords do not match.</string>
+
+    <!-- Customer Sign Up -->
+    <string name="customer_signup_title">Customer Sign Up</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_nic_or_license">NIC or Driving License</string>
+    <string name="hint_contact_number">Contact Number</string>
+    <string name="hint_email_address">Email Address</string>
+    <string name="hint_address">Address</string>
+    <string name="signup_button_text">Sign In</string>
+
+    <!-- Renter Driver Management -->
+    <string name="manage_drivers_title">Manage Drivers</string>
+    <string name="add_driver_title">Add Driver</string>
+    <string name="add_driver_subtitle">Register a new driver for your rental business.</string>
+    <string name="hint_driver_license">License Number</string>
+    <string name="hint_driver_id_number">ID Number</string>
+    <string name="btn_add_driver">Add Driver</string>
+    <string name="my_drivers_title">My Drivers</string>
+    <string name="my_drivers_subtitle">View and remove registered drivers.</string>
+    <string name="delete_text">Delete</string>
+
+    <!-- Renter Dashboard -->
+    <string name="renter_drivers_title">Drivers</string>
+    <string name="renter_drivers_subtitle">Register and manage your drivers.</string>
+    <string name="my_feedback_title">My Feedback</string>
+    <string name="my_feedback_subtitle">View customer reviews and complaints.</string>
+    <string name="view_text">View</string>
+
+    <string name="driver_default_name">Driver</string>
+    <string name="driver_email_format">Email: %1$s</string>
+    <string name="driver_contact_format">Contact: %1$s</string>
+    <string name="driver_details_format">ID: %1$s | License: %2$s | Age: %3$s</string>
+
+    <!-- Manage/My Vehicles card UI -->
+    <string name="manage_vehicle_hint">Tap to edit • Long press to remove</string>
+    <string name="manage_vehicle_subtitle">Tap a vehicle to edit</string>
 </resources>

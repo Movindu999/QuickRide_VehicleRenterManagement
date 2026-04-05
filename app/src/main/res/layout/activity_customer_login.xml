@@ -21,6 +21,7 @@
 
     <EditText
         android:id="@+id/etEmail"
+        style="@style/Widget.QuickRide.AuthInput"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:hint="@string/hint_username"
@@ -33,6 +34,7 @@
 
     <EditText
         android:id="@+id/etPassword"
+        style="@style/Widget.QuickRide.AuthInput"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:hint="@string/hint_password"

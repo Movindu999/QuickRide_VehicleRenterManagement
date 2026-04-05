@@ -12,43 +12,51 @@
         <include layout="@layout/include_top_app_bar" />
     </com.google.android.material.appbar.AppBarLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="76dp"
+        android:orientation="vertical"
         android:padding="16dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <com.google.android.material.card.MaterialCardView
-            style="@style/Widget.QuickRide.Card"
-            android:layout_width="0dp"
+        <TextView
+            style="@style/TextAppearance.QuickRide.Headline"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            android:text="@string/screen_my_bookings" />
 
-            <LinearLayout
+        <TextView
+            style="@style/TextAppearance.QuickRide.Body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Track your submitted bookings and statuses." />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvMyBookings"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:paddingBottom="8dp" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/emptyStateCard"
+            style="@style/Widget.QuickRide.Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/TextAppearance.QuickRide.Body"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <TextView
-                    style="@style/TextAppearance.QuickRide.Headline"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/screen_my_bookings" />
-
-                <TextView
-                    style="@style/TextAppearance.QuickRide.Body"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/placeholder_customer_body" />
-            </LinearLayout>
+                android:padding="16dp"
+                android:text="You have no bookings yet." />
         </com.google.android.material.card.MaterialCardView>
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
 
     <include layout="@layout/include_bottom_nav_customer" />
 

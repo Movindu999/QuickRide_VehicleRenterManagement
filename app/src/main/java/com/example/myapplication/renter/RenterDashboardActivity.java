@@ -32,6 +32,8 @@ public class RenterDashboardActivity extends AppCompatActivity {
             Intent intent = null;
             if (itemId == R.id.nav_renter_my_vehicles) {
                 intent = new Intent(this, ManageVehiclesActivity.class);
+            } else if (itemId == R.id.nav_renter_bookings) {
+                intent = new Intent(this, RenterBookingsActivity.class);
             }
 
             if (intent != null) {
@@ -43,6 +45,7 @@ public class RenterDashboardActivity extends AppCompatActivity {
         });
 
         Button btnManageDrivers = findViewById(R.id.btnManageDrivers);
+        Button btnMyFeedback = findViewById(R.id.btnMyFeedback);
         Button btnManageCars = findViewById(R.id.btnManageCars);
         Button btnManageVans = findViewById(R.id.btnManageVans);
         Button btnManageMotorbikes = findViewById(R.id.btnManageMotorbikes);
@@ -50,6 +53,7 @@ public class RenterDashboardActivity extends AppCompatActivity {
         Button btnManageTuktuk = findViewById(R.id.btnManageTuktuk);
 
         btnManageDrivers.setOnClickListener(v -> navigateToManageDrivers());
+        btnMyFeedback.setOnClickListener(v -> navigateToFeedback());
         btnManageCars.setOnClickListener(v -> navigateToManageVehicles("Car"));
         btnManageVans.setOnClickListener(v -> navigateToManageVehicles("Van"));
         btnManageMotorbikes.setOnClickListener(v -> navigateToManageVehicles("Motorbike"));
@@ -59,6 +63,11 @@ public class RenterDashboardActivity extends AppCompatActivity {
 
     private void navigateToManageDrivers() {
         Intent intent = new Intent(this, ManageDriversActivity.class);
+        startActivity(intent);
+    }
+
+    private void navigateToFeedback() {
+        Intent intent = new Intent(this, RenterFeedbackActivity.class);
         startActivity(intent);
     }
 

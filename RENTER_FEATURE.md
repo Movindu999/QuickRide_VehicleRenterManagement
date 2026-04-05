@@ -53,7 +53,7 @@ The UI follows Material Design 3 principles with:
 - Image upload functionality
 
 ## Note
-This is a UI-only implementation. Backend functionality for data persistence and image handling needs to be implemented separately.
+The renter vehicle image flow is now implemented with direct Cloudinary uploads, and the returned image URL is saved in Firestore.
 
 ## Integration
 To integrate the renter feature in the main app:
@@ -70,4 +70,3 @@ RoleSelectionActivity
                             └── [Manage Button] → ManageVehiclesActivity
                                                     └── [Add/Edit] → AddEditVehicleActivity
 ```
-

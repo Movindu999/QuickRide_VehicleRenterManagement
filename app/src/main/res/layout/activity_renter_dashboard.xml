@@ -44,8 +44,7 @@
                 style="@style/Widget.QuickRide.Card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                app:cardBackgroundColor="#E3F2FD"> <!-- Podi wenasak penna lassanata paatak damma -->
+                android:layout_marginTop="16dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -60,20 +59,18 @@
                         android:orientation="vertical">
 
                         <TextView
+                            style="@style/TextAppearance.QuickRide.Headline"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Drivers"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:textColor="#0D47A1" />
+                            android:text="@string/renter_drivers_title"
+                            android:textSize="18sp" />
 
                         <TextView
+                            style="@style/TextAppearance.QuickRide.Body"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
-                            android:text="Register and manage your drivers"
-                            android:textSize="13sp"
-                            android:textColor="@android:color/darker_gray" />
+                            android:text="@string/renter_drivers_subtitle" />
                     </LinearLayout>
 
                     <com.google.android.material.button.MaterialButton
@@ -83,6 +80,50 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="@string/btn_manage" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- My Feedback Card -->
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.QuickRide.Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/TextAppearance.QuickRide.Headline"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_feedback_title"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            style="@style/TextAppearance.QuickRide.Body"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="@string/my_feedback_subtitle" />
+                    </LinearLayout>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnMyFeedback"
+                        style="@style/Widget.QuickRide.Button.Secondary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/view_text" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 

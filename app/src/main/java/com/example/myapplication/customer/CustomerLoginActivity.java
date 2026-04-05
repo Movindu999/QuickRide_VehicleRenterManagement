@@ -68,22 +68,46 @@ public class CustomerLoginActivity extends AppCompatActivity {
     }
 
     private void checkUserRole() {
+        if (mAuth.getCurrentUser() == null) {
+            Toast.makeText(this, "Session expired. Please login again.", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         String userId = mAuth.getCurrentUser().getUid();
 
         db.collection("Users").document(userId).get()
                 .addOnSuccessListener(documentSnapshot -> {
-                    if (documentSnapshot.exists()) {
-                        String role = documentSnapshot.getString("role");
-
-                        if ("customer".equals(role)) {
-                            Toast.makeText(CustomerLoginActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(CustomerLoginActivity.this, CustomerDashboardActivity.class));
-                            finish();
-                        } else {
-                            mAuth.signOut();
-                            Toast.makeText(this, "Access Denied: Not a Customer account", Toast.LENGTH_LONG).show();
-                        }
+                    if (!documentSnapshot.exists()) {
+                        mAuth.signOut();
+                        Toast.makeText(this, "User profile not found", Toast.LENGTH_LONG).show();
+                        return;
                     }
+
+                    String role = documentSnapshot.getString("role");
+                    String status = documentSnapshot.getString("status");
+                    if (status == null || status.trim().isEmpty()) {
+                        status = "active";
+                    }
+
+                    if (!"customer".equalsIgnoreCase(role)) {
+                        mAuth.signOut();
+                        Toast.makeText(this, "Access Denied: Not a Customer account", Toast.LENGTH_LONG).show();
+                        return;
+                    }
+
+                    boolean isSuspended = "suspended".equalsIgnoreCase(status)
+                            || "blocked".equalsIgnoreCase(status);
+                    if (isSuspended) {
+                        mAuth.signOut();
+                        Toast.makeText(this,
+                                "Your account is suspended. Please contact admin.",
+                                Toast.LENGTH_LONG).show();
+                        return;
+                    }
+
+                    Toast.makeText(CustomerLoginActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(CustomerLoginActivity.this, CustomerDashboardActivity.class));
+                    finish();
                 })
                 .addOnFailureListener(e -> {
                     mAuth.signOut();

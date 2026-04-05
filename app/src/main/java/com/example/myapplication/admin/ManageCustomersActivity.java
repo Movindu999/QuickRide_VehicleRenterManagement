@@ -61,12 +61,17 @@ public class ManageCustomersActivity extends AppCompatActivity {
         String currentStatus = doc.getString("status");
         if (currentStatus == null) currentStatus = "active";
 
-        String newStatus = "blocked".equals(currentStatus) ? "active" : "blocked";
+        // Treat old "blocked" and new "suspended" as the same locked state.
+        boolean isSuspended = "suspended".equalsIgnoreCase(currentStatus)
+                || "blocked".equalsIgnoreCase(currentStatus);
+        String newStatus = isSuspended ? "active" : "suspended";
 
         db.collection("Users").document(doc.getId())
                 .update("status", newStatus)
                 .addOnSuccessListener(aVoid ->
-                        Toast.makeText(this, "User status updated to " + newStatus, Toast.LENGTH_SHORT).show())
+                        Toast.makeText(this,
+                                "Customer status updated to " + newStatus,
+                                Toast.LENGTH_SHORT).show())
                 .addOnFailureListener(e ->
                         Toast.makeText(this, "Failed: " + e.getMessage(), Toast.LENGTH_SHORT).show());
     }

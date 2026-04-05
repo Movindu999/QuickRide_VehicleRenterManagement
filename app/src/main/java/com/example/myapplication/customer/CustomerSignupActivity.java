@@ -18,7 +18,7 @@ import java.util.Map;
 public class CustomerSignupActivity extends AppCompatActivity {
 
     private Button btnSignIn;
-    private EditText etFirstName, etLastName, etAge, etNicLicense, etContact, etEmail, etAddress, etPassword;
+    private EditText etFirstName, etLastName, etAge, etNicLicense, etContact, etEmail, etAddress, etPassword, etConfirmPassword;
 
     private FirebaseAuth mAuth;
     private FirebaseFirestore db;
@@ -39,6 +39,7 @@ public class CustomerSignupActivity extends AppCompatActivity {
         etEmail = findViewById(R.id.etEmail);
         etAddress = findViewById(R.id.etAddress);
         etPassword = findViewById(R.id.etPassword);
+        etConfirmPassword = findViewById(R.id.etConfirmPassword);
         btnSignIn = findViewById(R.id.btnSignIn);
 
         btnSignIn.setOnClickListener(v -> registerUser());
@@ -53,14 +54,21 @@ public class CustomerSignupActivity extends AppCompatActivity {
         String email = etEmail.getText().toString().trim();
         String address = etAddress.getText().toString().trim();
         String password = etPassword.getText().toString().trim();
+        String confirmPassword = etConfirmPassword.getText().toString().trim();
 
-        if (email.isEmpty() || password.isEmpty() || firstName.isEmpty()) {
+        if (email.isEmpty() || password.isEmpty() || confirmPassword.isEmpty() || firstName.isEmpty()) {
             Toast.makeText(this, "Please fill all required fields", Toast.LENGTH_SHORT).show();
             return;
         }
 
         if (password.length() < 6) {
             etPassword.setError("Password must be at least 6 characters");
+            return;
+        }
+
+        if (!password.equals(confirmPassword)) {
+            etConfirmPassword.setError("Passwords do not match");
+            etConfirmPassword.requestFocus();
             return;
         }
 
@@ -92,6 +100,7 @@ public class CustomerSignupActivity extends AppCompatActivity {
         customer.put("email", email);
         customer.put("address", addr);
         customer.put("role", "customer");
+        customer.put("status", "active");
         customer.put("userId", userId);
 
         db.collection("Users").document(userId)
@@ -101,8 +110,6 @@ public class CustomerSignupActivity extends AppCompatActivity {
                     startActivity(new Intent(CustomerSignupActivity.this, CustomerDashboardActivity.class));
                     finish();
                 })
-                .addOnFailureListener(e -> {
-                    Toast.makeText(CustomerSignupActivity.this, "Database Error: " + e.getMessage(), Toast.LENGTH_SHORT).show();
-                });
+                .addOnFailureListener(e -> Toast.makeText(CustomerSignupActivity.this, "Database Error: " + e.getMessage(), Toast.LENGTH_SHORT).show());
     }
 }
